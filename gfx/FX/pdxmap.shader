@@ -236,7 +236,7 @@ PixelShader =
             float2 vTileRepeat = Input.uv2 * TERRAIN_TILE_FREQ;
             vTileRepeat.x *= MAP_SIZE_X/MAP_SIZE_Y;
             
-            float lod = clamp( mipmapLevel( vTileRepeat ) - 0.5f, 0.0f, 6.0f );
+            float lod = clamp( mipmapLevel( vTileRepeat ) - 0.85f, 0.0f, 6.0f ); // sharper mipmap LOD
             float vMipTexels = pow( 2.0f, ATLAS_TEXEL_POW2_EXPONENT - lod );
                     
             float3 normal = float3( 0, 1, 0 );

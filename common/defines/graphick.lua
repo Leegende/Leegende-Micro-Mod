@@ -14,9 +14,9 @@ NDefines_Graphics.NGraphics.GRADIENT_BORDERS_REFRESH_FREQ = 0.2
 
 -- Camera & Performance
 NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED_DISTANCE_MULT = 20
-NDefines_Graphics.NGraphics.MAX_MESHES_LOADED_PER_FRAME = 5
-NDefines_Graphics.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 1.0
-NDefines_Graphics.NGraphics.DRAW_REFRACTIONS_CUTOFF = 0
+NDefines_Graphics.NGraphics.MAX_MESHES_LOADED_PER_FRAME = 20
+NDefines_Graphics.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 1100.0
+NDefines_Graphics.NGraphics.DRAW_REFRACTIONS_CUTOFF = 250
 
 -- Supply Reach Colors
 NDefines_Graphics.NMapMode.SUPPLY_MAP_MODE_REACH_COLOR = {
@@ -44,26 +44,26 @@ NDefines_Graphics.NGraphics.COMMANDGROUP_PRESET_COLORS_HSV = {
 }
 
 -- Distance Cutoffs
-NDefines_Graphics.NGraphics.DECISION_MAP_ICON_DISTANCE_CUTOFF = 100
+NDefines_Graphics.NGraphics.DECISION_MAP_ICON_DISTANCE_CUTOFF = 600
 NDefines_Graphics.NGraphics.NAVAL_COMBAT_DISTANCE_CUTOFF = 1200
-NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 200
+NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 300
 NDefines_Graphics.NGraphics.AIRBASE_ICON_DISTANCE_CUTOFF = 600
 NDefines_Graphics.NGraphics.NAVALBASE_ICON_DISTANCE_CUTOFF = 600
-NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 150
-NDefines_Graphics.NGraphics.RESOURCE_MAP_ICON_TEXT_CUTOFF = 400
+NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 300
+NDefines_Graphics.NGraphics.RESOURCE_MAP_ICON_TEXT_CUTOFF = 600
 NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {200, 350, 500}
-NDefines_Graphics.NGraphics.UNITS_DISTANCE_CUTOFF = 100
-NDefines_Graphics.NGraphics.SHIPS_DISTANCE_CUTOFF = 200
-NDefines_Graphics.NGraphics.UNIT_ARROW_DISTANCE_CUTOFF = 500
-NDefines_Graphics.NGraphics.UNITS_ICONS_DISTANCE_CUTOFF = 700
+NDefines_Graphics.NGraphics.UNITS_DISTANCE_CUTOFF = 140
+NDefines_Graphics.NGraphics.SHIPS_DISTANCE_CUTOFF = 260
+NDefines_Graphics.NGraphics.UNIT_ARROW_DISTANCE_CUTOFF = 750
+NDefines_Graphics.NGraphics.UNITS_ICONS_DISTANCE_CUTOFF = 850
 NDefines_Graphics.NGraphics.ADJACENCY_RULE_DISTANCE_CUTOFF = 1300
 NDefines_Graphics.NGraphics.LAND_COMBAT_DISTANCE_CUTOFF = 800
 NDefines_Graphics.NGraphics.SUPPLY_ICON_CUTOFF = 1500
 NDefines_Graphics.NGraphics.PROV_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 300
 NDefines_Graphics.NGraphics.STATE_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 600
 NDefines_Graphics.NGraphics.WEATHER_ZOOM_IN_CUTOFF = 500
-NDefines_Graphics.NGraphics.TREE_FADE_NEAR = 150.0
-NDefines_Graphics.NGraphics.TREE_FADE_FAR = 250.0
+NDefines_Graphics.NGraphics.TREE_FADE_NEAR = 250.0
+NDefines_Graphics.NGraphics.TREE_FADE_FAR = 350.0
 
 -- Map Icons & Grouping
 NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100
