@@ -670,7 +670,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "POR_vehicle_infantry_rifle_entity" }
@@ -726,7 +726,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "POR_vehicle_infantry_rifle_entity" }
@@ -748,7 +748,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_nationalist_spain_vehicle_infantry_rifle_entity" }
@@ -804,7 +804,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_nationalist_spain_vehicle_infantry_rifle_entity" }
@@ -822,7 +822,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_nationalist_spain_vehicle_infantry_rifle_entity" }
@@ -839,7 +839,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_nationalist_spain_vehicle_infantry_rifle_entity" }
@@ -857,7 +857,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -874,7 +874,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -891,7 +891,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -908,7 +908,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -925,7 +925,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -942,7 +942,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -964,7 +964,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -1020,7 +1020,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -1038,7 +1038,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -1055,7 +1055,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_carlist_spain_vehicle_infantry_rifle_entity" }
@@ -1077,7 +1077,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1133,7 +1133,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1151,7 +1151,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1168,7 +1168,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1186,7 +1186,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1203,7 +1203,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1221,7 +1221,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1238,7 +1238,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_anarchist_spain_vehicle_infantry_rifle_entity" }
@@ -1260,7 +1260,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_republican_spain_vehicle_infantry_rifle_entity" }
@@ -1316,7 +1316,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "SPR_republican_spain_vehicle_infantry_rifle_entity" }

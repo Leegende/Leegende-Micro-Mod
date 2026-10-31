@@ -35,7 +35,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -61,7 +61,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }	
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -77,7 +77,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rider_bersaglieri_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -95,7 +95,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_bersaglieri_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -115,7 +115,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_rifle_combined_bersaglieri_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -135,7 +135,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_mg_combined_bersaglieri_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -151,7 +151,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rider_bersaglieri_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -169,7 +169,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_bersaglieri_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -189,7 +189,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_rifle_combined_bersaglieri_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -209,7 +209,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_mg_combined_bersaglieri_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -240,7 +240,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -266,7 +266,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }	
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -282,7 +282,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rifle_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -300,7 +300,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -320,7 +320,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_rifle_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -340,7 +340,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_mg_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -356,7 +356,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rifle_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -374,7 +374,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -394,7 +394,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_rifle_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -414,7 +414,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_mg_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 	
 	##############################
@@ -444,7 +444,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.320
+	scale = 0.500
 	}
 	
 	entity = {
@@ -470,7 +470,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }	
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -486,7 +486,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rifle_rider_libya_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -504,7 +504,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_libya_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -524,7 +524,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_rifle_combined_libya_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -544,7 +544,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_mg_combined_libya_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -560,7 +560,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rifle_rider_libya_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -578,7 +578,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_libya_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -598,7 +598,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_rifle_combined_libya_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -618,7 +618,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_mg_combined_libya_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -649,7 +649,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -675,7 +675,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }	
 		
-	scale = 0.320
+	scale = 0.500
 	}
 
 	entity = {
@@ -691,7 +691,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_irregular_infantry_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -709,7 +709,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_irregular_infantry_mg_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.500
 	}
 
 	entity = {
@@ -729,7 +729,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_irregular_cavalry_rifle_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -749,7 +749,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_irregular_cavalry_mg_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-	scale = 0.400
+	scale = 0.500
 	}
 
 	entity = {
@@ -765,7 +765,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_irregular_infantry_rider_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -783,7 +783,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_irregular_cavalry_mg_combined_eritrea_entity" }
 		
-	scale = 0.260
+	scale = 0.320
 	}
 
 	entity = {
@@ -803,7 +803,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_irregular_camelry_rifle_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -823,5 +823,5 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_irregular_camelry_mg_combined_eritrea_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}

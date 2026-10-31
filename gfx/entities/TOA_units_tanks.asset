@@ -79,7 +79,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.770
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -124,7 +124,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.770
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -227,7 +227,7 @@ entity = {
 entity = {
 	clone = "ARG_medium_armor_1_entity"
 	name = "ARG_medium_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 
@@ -265,7 +265,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.880
+	scale = 0.320
 	
 	game_data = {
 		texture_anim_speed = 0.4
@@ -398,7 +398,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.880
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -543,7 +543,7 @@ entity = {
 entity = {
 	clone = "BRA_light_armor_0_entity"
 	name = "BRA_light_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 #M24 Chaffee (US M24 tank copy from DLC10)
@@ -624,7 +624,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -676,7 +676,7 @@ entity = {
 entity = {
 	clone = "BRA_medium_armor_1_entity"
 	name = "BRA_medium_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 
@@ -760,7 +760,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -771,7 +771,7 @@ entity = {
 entity = {
 	clone = "BRA_heavy_armor_0_entity"
 	name = "BRA_heavy_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 ### Super Heavy -----------------------------------------------------------------------------------------------------------
@@ -813,7 +813,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -871,7 +871,7 @@ entity = {
 entity = {
 	clone = "CHL_light_armor_0_entity"
 	name = "CHL_light_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 #M3 Stuart (Chile) variation 1
@@ -879,7 +879,7 @@ entity = {
 	clone = "CHL_light_armor_0_entity"
 	name = "CHL_light_armor_0_var_1_entity"
 	pdxmesh = "CHL_light_armor_0_var_1_mesh"
-	scale = 2.200
+	scale = 1.320
 }
 
 #M24 Chaffee (Chile) (US M24 tank copy from DLC10)
@@ -959,7 +959,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1011,7 +1011,7 @@ entity = {
 entity = {
 	clone = "CHL_medium_armor_1_entity"
 	name = "CHL_medium_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 #T20 Medium (Chile)
@@ -1094,7 +1094,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1105,7 +1105,7 @@ entity = {
 entity = {
 	clone = "CHL_heavy_armor_0_entity"
 	name = "CHL_heavy_armor_entity"
-	scale = 2.200
+	scale = 1.320
 }
 
 

@@ -53,7 +53,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ### Machinegun ----------------------------------------------------------------------------------------------------------------
@@ -145,14 +145,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_communism_infantry_2_entity"
 	name = "BUL_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -196,14 +196,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_democratic_infantry_2_entity"
 	name = "BUL_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -247,14 +247,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_fascism_infantry_2_entity"
 	name = "BUL_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -298,14 +298,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_neutrality_infantry_2_entity"
 	name = "BUL_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -364,7 +364,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -411,13 +411,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_communism_infantry_2_entity"
 	name = "GRE_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -461,13 +461,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_democratic_infantry_2_entity"
 	name = "GRE_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -511,13 +511,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_fascism_infantry_2_entity"
 	name = "GRE_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -561,13 +561,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_neutrality_infantry_2_entity"
 	name = "GRE_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -627,7 +627,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -674,13 +674,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_communism_infantry_2_entity"
 	name = "TUR_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -724,13 +724,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_democratic_infantry_2_entity"
 	name = "TUR_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -774,13 +774,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_fascism_infantry_2_entity"
 	name = "TUR_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -824,13 +824,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_neutrality_infantry_2_entity"
 	name = "TUR_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -893,7 +893,7 @@ entity = {
   	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
   	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
   }
 
 
@@ -941,14 +941,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_zveno_bulgaria_infantry_2_entity"
 	name = "BUL_zveno_bulgaria_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1000,14 +1000,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_constitutional_monarchy_infantry_2_entity"
 	name = "BUL_constitutional_monarchy_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1059,14 +1059,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "BUL_ff_bulgaria_infantry_2_entity"
 	name = "BUL_ff_bulgaria_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1118,7 +1118,7 @@ entity = {
   	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
   	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
   }
 
   ### Machinegun ----------------------------------------------------------------------------------------------------------------
@@ -1165,14 +1165,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "TBE_third_bulgarian_empire_communism_infantry_2_entity"
 	name = "TBE_third_bulgarian_empire_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1216,14 +1216,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "TBE_third_bulgarian_empire_democratic_infantry_2_entity"
 	name = "TBE_third_bulgarian_empire_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1267,14 +1267,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "TBE_third_bulgarian_empire_fascism_infantry_2_entity"
 	name = "TBE_third_bulgarian_empire_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1318,14 +1318,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "TBE_third_bulgarian_empire_neutrality_infantry_2_entity"
 	name = "TBE_third_bulgarian_empire_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1377,7 +1377,7 @@ entity = {
   	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
   	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
   }
 
   ### Machinegun ----------------------------------------------------------------------------------------------------------------
@@ -1424,14 +1424,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "UBF_united_balkan_federation_communism_infantry_2_entity"
 	name = "UBF_united_balkan_federation_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1475,14 +1475,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "UBF_united_balkan_federation_democratic_infantry_2_entity"
 	name = "UBF_united_balkan_federation_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1526,14 +1526,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "UBF_united_balkan_federation_fascism_infantry_2_entity"
 	name = "UBF_united_balkan_federation_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1577,14 +1577,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## This is required to make the model appear under infantry weapons IV tech, just cloning the previous one and renaming it
 entity = {
 	clone = "UBF_united_balkan_federation_neutrality_infantry_2_entity"
 	name = "UBF_united_balkan_federation_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1638,7 +1638,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -1685,13 +1685,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_dem_monarchy_communism_infantry_2_entity"
 	name = "GRE_dem_monarchy_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1735,13 +1735,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_dem_monarchy_democratic_infantry_2_entity"
 	name = "GRE_dem_monarchy_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1785,13 +1785,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_dem_monarchy_fascism_infantry_2_entity"
 	name = "GRE_dem_monarchy_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1835,13 +1835,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_dem_monarchy_neutrality_infantry_2_entity"
 	name = "GRE_dem_monarchy_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1894,7 +1894,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -1941,13 +1941,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_com_independent_communism_infantry_2_entity"
 	name = "GRE_com_independent_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1991,13 +1991,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_com_independent_democratic_infantry_2_entity"
 	name = "GRE_com_independent_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2041,13 +2041,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_com_independent_fascism_infantry_2_entity"
 	name = "GRE_com_independent_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2091,13 +2091,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_com_independent_neutrality_infantry_2_entity"
 	name = "GRE_com_independent_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -2150,7 +2150,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -2197,13 +2197,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_GREATER_GREECE_communism_infantry_2_entity"
 	name = "GRE_GREATER_GREECE_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2247,13 +2247,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_GREATER_GREECE_democratic_infantry_2_entity"
 	name = "GRE_GREATER_GREECE_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2297,13 +2297,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_GREATER_GREECE_fascism_infantry_2_entity"
 	name = "GRE_GREATER_GREECE_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2347,13 +2347,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_GREATER_GREECE_neutrality_infantry_2_entity"
 	name = "GRE_GREATER_GREECE_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -2406,7 +2406,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -2453,13 +2453,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "MAE_communism_infantry_2_entity"
 	name = "MAE_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2503,13 +2503,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "MAE_democratic_infantry_2_entity"
 	name = "MAE_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2553,13 +2553,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "MAE_fascism_infantry_2_entity"
 	name = "MAE_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2603,13 +2603,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "MAE_neutrality_infantry_2_entity"
 	name = "MAE_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -2662,7 +2662,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -2709,13 +2709,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "BYZ_UNIFIED_communism_infantry_2_entity"
 	name = "BYZ_UNIFIED_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2759,13 +2759,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "BYZ_UNIFIED_democratic_infantry_2_entity"
 	name = "BYZ_UNIFIED_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2809,13 +2809,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "BYZ_UNIFIED_fascism_infantry_2_entity"
 	name = "BYZ_UNIFIED_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -2859,13 +2859,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "BYZ_UNIFIED_neutrality_infantry_2_entity"
 	name = "BYZ_UNIFIED_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -2917,7 +2917,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 ### Machinegun ----------------------------------------------------------------------------------------------------------------
 
@@ -2962,13 +2962,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_stalinist_infantry_2_entity"
 	name = "GRE_stalinist_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -3020,7 +3020,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 ### Machinegun ----------------------------------------------------------------------------------------------------------------
 
@@ -3065,13 +3065,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "GRE_byz_republic_infantry_2_entity"
 	name = "GRE_byz_republic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -3123,7 +3123,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 ### Machinegun ----------------------------------------------------------------------------------------------------------------
 
@@ -3168,13 +3168,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "CYP_UK_infantry_2_entity"
 	name = "CYP_UK_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -3226,7 +3226,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -3273,13 +3273,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_SULTANATE_communism_infantry_2_entity"
 	name = "OTT_SULTANATE_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3323,13 +3323,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_SULTANATE_democratic_infantry_2_entity"
 	name = "OTT_SULTANATE_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3373,13 +3373,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_SULTANATE_fascism_infantry_2_entity"
 	name = "OTT_SULTANATE_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3423,13 +3423,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_SULTANATE_neutrality_infantry_2_entity"
 	name = "OTT_SULTANATE_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -3481,7 +3481,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -3528,13 +3528,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_GREATER_TURKEY_communism_infantry_2_entity"
 	name = "TUR_GREATER_TURKEY_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3578,13 +3578,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_GREATER_TURKEY_democratic_infantry_2_entity"
 	name = "TUR_GREATER_TURKEY_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3628,13 +3628,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_GREATER_TURKEY_fascism_infantry_2_entity"
 	name = "TUR_GREATER_TURKEY_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3678,13 +3678,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_GREATER_TURKEY_neutrality_infantry_2_entity"
 	name = "TUR_GREATER_TURKEY_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -3736,7 +3736,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -3783,13 +3783,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TRN_communism_infantry_2_entity"
 	name = "TRN_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3833,13 +3833,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TRN_democratic_infantry_2_entity"
 	name = "TRN_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3883,13 +3883,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TRN_fascism_infantry_2_entity"
 	name = "TRN_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -3933,13 +3933,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TRN_neutrality_infantry_2_entity"
 	name = "TRN_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -3991,7 +3991,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -4038,13 +4038,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_UNIFIED_communism_infantry_2_entity"
 	name = "OTT_UNIFIED_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -4088,13 +4088,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_UNIFIED_democratic_infantry_2_entity"
 	name = "OTT_UNIFIED_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -4138,13 +4138,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_UNIFIED_fascism_infantry_2_entity"
 	name = "OTT_UNIFIED_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -4188,13 +4188,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "OTT_UNIFIED_neutrality_infantry_2_entity"
 	name = "OTT_UNIFIED_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -4246,7 +4246,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 
@@ -4293,13 +4293,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_PROVISIONARY_communism_infantry_2_entity"
 	name = "TUR_PROVISIONARY_communism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -4343,13 +4343,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_PROVISIONARY_democratic_infantry_2_entity"
 	name = "TUR_PROVISIONARY_democratic_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -4393,13 +4393,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_PROVISIONARY_fascism_infantry_2_entity"
 	name = "TUR_PROVISIONARY_fascism_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -4443,11 +4443,11 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "TUR_PROVISIONARY_neutrality_infantry_2_entity"
 	name = "TUR_PROVISIONARY_neutrality_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }

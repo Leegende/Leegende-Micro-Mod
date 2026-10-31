@@ -82,7 +82,7 @@ entity = {
 entity = {
 	name = "french_city_4_01_entity"
 	pdxmesh = "french_city_4_01"
-	scale = 0.2
+	scale = 0.320
 }
 
 entity = {
@@ -94,7 +94,7 @@ entity = {
 entity = {
 	name = "french_city_4_03_entity"
 	pdxmesh = "french_city_4_03"
-	scale = 0.3
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -157,13 +157,13 @@ entity = {
 entity = {
 	name = "french_city_4_04_entity"
 	pdxmesh = "french_city_4_04"
-	scale = 0.3
+	scale = 0.320
 }
 
 entity = {
 	name = "asia_city_01_entity"
 	pdxmesh = "asia_city_01"
-	scale = 0.2
+	scale = 0.320
 }
 
 entity = {
@@ -175,7 +175,7 @@ entity = {
 entity = {
 	name = "asia_city_03_entity"
 	pdxmesh = "asia_city_03"
-	scale = 0.3
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -244,7 +244,7 @@ entity = {
 entity = {
 	name = "unciv_city_01_entity"
 	pdxmesh = "unciv_city_01"
-	scale = 0.4
+	scale = 0.320
 }
 
 entity = {
@@ -256,7 +256,7 @@ entity = {
 entity = {
 	name = "unciv_city_03_entity"
 	pdxmesh = "unciv_city_03"
-	scale = 0.6
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -319,13 +319,13 @@ entity = {
 entity = {
 	name = "unciv_city_04_entity"
 	pdxmesh = "unciv_city_04"
-	scale = 0.9
+	scale = 0.320
 }
 
 entity = {
 	name = "building_dockyard_1"
 	pdxmesh = "building_dockyard_1"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -364,7 +364,7 @@ entity = {
 entity = {
 	name = "building_dockyard_2"
 	pdxmesh = "building_dockyard_2"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -403,7 +403,7 @@ entity = {
 entity = {
 	name = "building_dockyard_3"
 	pdxmesh = "building_dockyard_3"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -527,7 +527,7 @@ entity = {
 entity = {
 	name = "building_naval_gun_battery"
 	pdxmesh = "building_naval_base_1"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -683,7 +683,7 @@ entity = {
 entity = {
 	name = "building_naval_base_1"
 	pdxmesh = "building_naval_base_1"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -735,7 +735,7 @@ entity = {
 entity = {
 	name = "building_naval_base_2"
 	pdxmesh = "building_naval_base_2"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -787,7 +787,7 @@ entity = {
 entity = {
 	name = "building_naval_base_3"
 	pdxmesh = "building_naval_base_3"
-	scale = 0.8
+	scale = 0.320
 	locator = {
 		name = "damage_locator_01"
 		position = {
@@ -1145,7 +1145,7 @@ entity = {
 	state = {
 		name = "idle"
 	}
-	scale = 0.8
+	scale = 0.320
 }
 
 entity = {
@@ -1194,7 +1194,7 @@ entity = {
 			particle = "building_damaged_particle"
 		}
 	}
-	scale = 0.8
+	scale = 0.320
 }
 
 entity = {
@@ -2325,7 +2325,7 @@ entity = {
 			trigger_once = yes
 		}
 	}
-	scale = 0.7
+	scale = 0.320
 }
 
 entity = {
@@ -2436,7 +2436,7 @@ entity = {
 			}
 		}
 	}
-	scale = 0.7
+	scale = 0.320
 }
 
 entity = {

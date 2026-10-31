@@ -31,12 +31,6 @@ music = {
 	}
 }
 music = {
-	song = "Rizen"
-	chance = {
-		factor = 1
-	}
-}
-music = {
 	song = "Schwarzgeld"
 	chance = {
 		factor = 1

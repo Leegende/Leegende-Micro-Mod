@@ -54,7 +54,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
@@ -98,13 +98,13 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_infantry_2_alt_0_entity"
 	name = "ITA_infantry_3_alt_0_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 ######### BERSAGLIERI BICYCLE ##########
@@ -125,7 +125,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "ITA_bicycle_rider_rifle_entity" }
 	attach = { 	name = "combined"		combined = "ITA_bicycle_rifle_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "ITA_bicycle_vehicle_entity" }
-	scale = 0.400
+	scale = 0.320
 }
 
 entity = {
@@ -169,7 +169,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.400
+	scale = 0.320
 }
 
 entity = {
@@ -201,7 +201,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "ITA_bicycle_rider_mg_entity" }
 	attach = { 	name = "combined"		combined = "ITA_bicycle_mg_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "ITA_bicycle_vehicle_entity" }
-	scale = 0.400
+	scale = 0.320
 }
 
 entity = {
@@ -243,7 +243,7 @@ entity = {
 	attach = { 	name = "rifle1"	Right_Hand_node = "ITA_infantry_weapon_mg_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_mg_left_entity" }
 
-	scale = 0.400
+	scale = 0.320
 }
 
 
@@ -267,7 +267,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -285,13 +285,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_mountaineers_2_entity"
 	name = "ITA_mountaineers_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -315,7 +315,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -333,13 +333,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_militia_2_entity"
 	name = "ITA_militia_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 ### BLACKSHIRT SNOW  ###
@@ -386,7 +386,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## BLACKSHIRT MG UNIT ##
@@ -431,14 +431,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_militia_2_entity_snow"
 	name = "ITA_militia_3_entity_snow"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -486,7 +486,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## MG UNIT ##
@@ -531,14 +531,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_militia_2_entity_desert"
 	name = "ITA_militia_3_entity_desert"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -562,7 +562,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -580,13 +580,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_militia_2_alt_0_entity"
 	name = "ITA_militia_3_alt_0_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 ### RED SHIRT SNOW ###
@@ -608,7 +608,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ## RED SHIRT MG UNIT ##
@@ -628,14 +628,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_militia_2_alt_0_entity_snow"
 	name = "ITA_militia_3_alt_0_entity_snow"
-	scale = 0.400
+	scale = 0.500
 }
 
 ### RED SHIRT DESERT ###
@@ -657,7 +657,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ## MG UNIT ##
@@ -677,14 +677,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_militia_2_alt_0_entity_desert"
 	name = "ITA_militia_3_alt_0_entity_desert"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -738,7 +738,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## MG UNIT ##
@@ -783,14 +783,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_infantry_2_entity_snow"
 	name = "ITA_infantry_3_entity_snow"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -815,7 +815,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ## MG UNIT ##
@@ -835,14 +835,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_infantry_2_entity_desert"
 	name = "ITA_infantry_3_entity_desert"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -867,7 +867,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ## MG UNIT ## MARINES
@@ -887,14 +887,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_marine_2_entity"
 	name = "ITA_marine_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -919,7 +919,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ## MG UNIT ## COLONIAL MARINES ## ERITREAN
@@ -939,14 +939,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 ##  WEAPONS IV TECH ##
 entity = {
 	clone = "ITA_marine_2_alt_0_entity"
 	name = "ITA_marine_3_alt_0_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -972,7 +972,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -990,13 +990,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_infantry_2_alt_1_entity"
 	name = "ITA_infantry_3_alt_1_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1019,7 +1019,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1037,13 +1037,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_infantry_2_alt_2_entity"
 	name = "ITA_infantry_3_alt_2_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 #SOMALI MODEL
@@ -1063,7 +1063,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1081,13 +1081,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_infantry_2_alt_3_entity"
 	name = "ITA_infantry_3_alt_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1112,7 +1112,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1130,13 +1130,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_irregular_infantry_2_entity"
 	name = "ITA_irregular_infantry_3_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1159,7 +1159,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1177,13 +1177,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_irregular_infantry_2_alt_0_entity"
 	name = "ITA_irregular_infantry_3_alt_0_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 #ERITREAN MODEL
@@ -1203,7 +1203,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1221,13 +1221,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
 	clone = "ITA_irregular_infantry_2_alt_1_entity"
 	name = "ITA_irregular_infantry_3_alt_1_entity"
-	scale = 0.400
+	scale = 0.500
 }
 
 
@@ -1253,7 +1253,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1271,7 +1271,7 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 #ETHIOPIAN IRREGULAR MODEL
@@ -1292,7 +1292,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1311,7 +1311,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1329,7 +1329,7 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 ########################################
@@ -1354,7 +1354,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1372,7 +1372,7 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 ## WINTER RIFLE UNIT ##
@@ -1418,7 +1418,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## MG UNIT ##
@@ -1463,7 +1463,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 #SWITZERLAND MILITIA MODEL
@@ -1484,7 +1484,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.400
+	scale = 0.500
 }
 
 entity = {
@@ -1502,7 +1502,7 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
-	scale = 0.400
+	scale = 0.500
 }
 
 ## WINTER RIFLE UNIT ##
@@ -1548,7 +1548,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 
 ## MG UNIT ##
@@ -1593,6 +1593,6 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.320
+	scale = 0.500
 }
 

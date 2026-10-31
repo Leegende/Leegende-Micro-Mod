@@ -112,7 +112,7 @@ entity = {
 			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
 			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###SNOW###
@@ -120,7 +120,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "BRA_mechanized_vehicle_entity_snow"
 		pdxmesh = "BRA_mechanized_0_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###DESERT###
@@ -128,7 +128,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "BRA_mechanized_vehicle_entity_desert"
 		pdxmesh = "BRA_mechanized_0_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -196,7 +196,7 @@ entity = {
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity" }
@@ -222,7 +222,7 @@ entity = {
 
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -233,7 +233,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -244,7 +244,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -261,7 +261,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -271,7 +271,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD BRAZILIAN MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -282,7 +282,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity_desert" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -293,7 +293,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity_desert" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -304,7 +304,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity_desert" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -321,7 +321,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -331,7 +331,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD BRAZILIAN MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -342,7 +342,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity_snow" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -353,7 +353,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity_snow" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -364,7 +364,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity_snow" }													
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -382,7 +382,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -392,7 +392,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -403,7 +403,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -414,7 +414,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -425,7 +425,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 ##############################################
@@ -442,7 +442,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -452,7 +452,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -463,7 +463,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -474,7 +474,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -485,7 +485,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 ##############################################
@@ -502,7 +502,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -512,7 +512,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -523,7 +523,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -534,7 +534,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -545,7 +545,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "BRA_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "BRA_vehicle_militia_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 ##################################################### ARGENTINA #########################################################
@@ -596,7 +596,7 @@ entity = {
 	state = { name = "attack"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 	state = { name = "defend"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 	
-	scale = 0.400
+	scale = 0.320
 
 }
 
@@ -607,7 +607,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "ARG_mechanized_vehicle_entity"
 		pdxmesh = "ARG_mechanized_0_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###SNOW###
@@ -615,7 +615,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "ARG_mechanized_vehicle_entity_snow"
 		pdxmesh = "ARG_mechanized_0_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###DESERT###
@@ -623,7 +623,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "ARG_mechanized_vehicle_entity_desert"
 		pdxmesh = "ARG_mechanized_0_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -641,7 +641,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -651,7 +651,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.600
 	}
 
 	entity = {
@@ -662,7 +662,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -673,7 +673,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -684,7 +684,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -701,7 +701,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -711,7 +711,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -722,7 +722,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity_desert" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -733,7 +733,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity_desert" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -744,7 +744,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity_desert" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	#################################################
@@ -761,7 +761,7 @@ entity = {
 			attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 			attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 			
-	scale = 0.400
+	scale = 0.320
 		}
 
 		entity = {
@@ -771,7 +771,7 @@ entity = {
 			
 			attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 			attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 		}
 
 		entity = {
@@ -782,7 +782,7 @@ entity = {
 			
 			attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity_snow" }													###############ADD CHILE MECHANIZED HERE!####################
 			attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 		}
 
 		entity = {
@@ -793,7 +793,7 @@ entity = {
 			
 			attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity_snow" }													###############ADD CHILE MECHANIZED HERE!####################
 			attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 		}
 
 			entity = {
@@ -804,7 +804,7 @@ entity = {
 			
 			attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity_snow" }													###############ADD CHILE MECHANIZED HERE!####################
 			attach = { 	name = "infantry"			infantry = "ARG_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 		}
 
 #################################################
@@ -858,7 +858,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_militia_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_militia_mg_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -869,7 +869,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_militia_mg_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -880,7 +880,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_militia_mg_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -891,7 +891,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "ARG_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "ARG_vehicle_militia_mg_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 ####################################################### CHILE ###########################################################
@@ -928,7 +928,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "CHL_mechanized_vehicle_entity"
 		pdxmesh = "CHL_mechanized_0_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###SNOW###
@@ -936,7 +936,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "CHL_mechanized_vehicle_entity_snow"
 		pdxmesh = "CHL_mechanized_0_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###DESERT###
@@ -944,7 +944,7 @@ entity = {
 		clone = "BRA_mechanized_vehicle_entity"
 		name = "CHL_mechanized_vehicle_entity_desert"
 		pdxmesh = "CHL_mechanized_0_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -961,7 +961,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -971,7 +971,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.600
 	}
 
 	entity = {
@@ -982,7 +982,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -993,7 +993,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1004,7 +1004,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -1022,7 +1022,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1032,7 +1032,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1043,7 +1043,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_desert" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1054,7 +1054,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_desert" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1065,7 +1065,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_desert" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_desert" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -1082,7 +1082,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1092,7 +1092,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1103,7 +1103,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_snow" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1114,7 +1114,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_snow" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1125,7 +1125,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_snow" }													###############ADD CHILE MECHANIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -1144,7 +1144,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1154,7 +1154,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1165,7 +1165,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1176,7 +1176,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1187,7 +1187,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -1204,7 +1204,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "USA_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1214,7 +1214,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1225,7 +1225,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_snow" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1236,7 +1236,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_snow" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1247,7 +1247,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity_snow" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -1265,7 +1265,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1275,7 +1275,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1286,7 +1286,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1297,7 +1297,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1308,7 +1308,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_militia_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -1325,7 +1325,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1335,7 +1335,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1346,7 +1346,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1357,7 +1357,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1368,7 +1368,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_0_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 #################################################
@@ -1385,7 +1385,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1395,7 +1395,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }													###############ADD CHILE MOTORIZED HERE!####################
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1406,7 +1406,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -1417,7 +1417,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 		entity = {
@@ -1428,5 +1428,5 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "CHL_mechanized_vehicle_entity" }													
 		attach = { 	name = "infantry"			infantry = "CHL_vehicle_infantry_alt_1_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}

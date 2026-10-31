@@ -241,7 +241,7 @@ PixelShader =
                     
             float3 normal = float3( 0, 1, 0 );
             float4 diffuse = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) ).rgba;
-            float vGlossiness = diffuse.a;
+            float vGlossiness = 0.0f;
                                     
             float3 terrain_normal;
             float4 terrain_normalRaw = tex2Dlod( TerrainNormal, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) );
@@ -289,7 +289,7 @@ PixelShader =
 
             // Gradient Borders
             float vBloomAlpha = 0.0f;
-            gradient_border_apply( diffuse.rgb, normal, Input.uv2, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
+            gradient_border_apply( diffuse.rgb, normal, Input.uv2, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );\n            vBloomAlpha = 0.0f;
                     
             // Secondary color mask
             secondary_color_mask( diffuse.rgb, normal, Input.uv2, ProvinceSecondaryColorMap, vBloomAlpha );
@@ -301,7 +301,7 @@ PixelShader =
             
             lightingProperties._Diffuse = diffuse.rgb;
             lightingProperties._Glossiness = vGlossiness;
-            lightingProperties._SpecularColor = vec3(vSpec);
+            lightingProperties._SpecularColor = vec3(0.0);
             lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(vGlossiness);
 
 
@@ -311,6 +311,7 @@ PixelShader =
             float fShadowTerm = max(GetShadowScaled( SHADOW_WEIGHT_TERRAIN, Input.vScreenCoord, ShadowMap ), 0.1f );
         
             CalculateSunLight( lightingProperties, fShadowTerm, diffuseLight, specularLight );
+            specularLight = vec3(0.0);
             
             float3 vOut = ComposeLightSnow(lightingProperties, diffuseLight, specularLight, vSnowAlpha);
         
@@ -349,7 +350,7 @@ PixelShader =
 
             float vWaterAlpha = saturate(( Input.prepos.y - vMin ) / ( vMax - vMin ) );
         
-            float vGlossiness = MAP_SPECULAR_WIDTH;
+            float vGlossiness = 0.0f;
         
             LightingProperties lightingProperties;
             lightingProperties._WorldSpacePos = Input.prepos;
@@ -358,7 +359,7 @@ PixelShader =
             lightingProperties._Diffuse = diffuse;
 
             lightingProperties._Glossiness = vGlossiness;
-            lightingProperties._SpecularColor = SunDiffuseIntensity.rgb * 0.1f;
+            lightingProperties._SpecularColor = vec3(0.0);
             lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(vGlossiness);
             
             float3 diffuseLight = vec3(0.0);

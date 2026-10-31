@@ -531,12 +531,16 @@ PixelShader =
 	// Direct lighting
 	float3 FresnelSchlick(float3 SpecularColor, float3 E, float3 H)
 	{
+		if ( dot( SpecularColor, SpecularColor ) <= 0.0001f )
+			return vec3(0.0f);
 		return SpecularColor + (vec3(1.0f) - SpecularColor) * pow(1.0 - saturate(dot(E, H)), 5.0);
 	}
 
 	// Indirect lighting
 	float3 FresnelGlossy(float3 SpecularColor, float3 E, float3 N, float Smoothness)
 	{
+		if ( dot( SpecularColor, SpecularColor ) <= 0.0001f )
+			return vec3(0.0f);
 		return SpecularColor + (max(vec3(Smoothness), SpecularColor) - SpecularColor) * pow(1.0 - saturate(dot(E, N)), 5.0);
 	}
 

@@ -31,7 +31,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 2.200
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5

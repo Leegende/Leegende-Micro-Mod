@@ -72,7 +72,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 	entity = {
@@ -99,7 +99,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 	entity = {
@@ -126,7 +126,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 
@@ -171,7 +171,7 @@ entity = {
 		clone = "AFG_mechanized_entity"
 		name = "AFG_mechanized_entity_snow"
 		pdxmesh = "AFG_mechanized_vehicle_0_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #British Universal Carrier	#DESERT
@@ -179,7 +179,7 @@ entity = {
 		clone = "AFG_mechanized_entity"
 		name = "AFG_mechanized_entity_desert"
 		pdxmesh = "AFG_mechanized_vehicle_0_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -213,7 +213,7 @@ entity = {
 			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
 			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###SNOW###
@@ -221,7 +221,7 @@ entity = {
 		clone = "AFG_mechanized_2_entity"
 		name = "AFG_mechanized_2_entity_snow"
 		pdxmesh = "AFG_mechanized_2_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###DESERT###
@@ -229,7 +229,7 @@ entity = {
 		clone = "AFG_mechanized_2_entity"
 		name = "AFG_mechanized_2_entity_desert"
 		pdxmesh = "AFG_mechanized_2_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -334,7 +334,7 @@ entity = {
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 
-	scale = 0.400
+	scale = 0.600
 		
 		attach = { 	name = "vehicle"			vehicle = "AFG_motorized_vehicle_entity" }																			
 		attach = { 	name = "infantry"			infantry = "AFG_vehicle_infantry_rifle_entity" }
@@ -354,7 +354,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "GER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -364,7 +364,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "AFG_motorized_vehicle_entity_snow" }						
 		attach = { 	name = "infantry"			infantry = "AFG_vehicle_infantry_rifle_entity_snow" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -486,7 +486,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 	#SNOW
@@ -514,7 +514,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 	#DESERT
@@ -542,7 +542,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 ### Mechanized ------------------------------------------------------------------------------------------------------------
@@ -567,7 +567,7 @@ entity = {
 			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 	#SNOW
@@ -575,7 +575,7 @@ entity = {
 		clone = "PER_mechanized_vehicle_entity"
 		name = "PER_mechanized_vehicle_entity_snow"
 		pdxmesh = "PER_mechanized_vehicle_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 	#DESERT
@@ -583,7 +583,7 @@ entity = {
 		clone = "PER_mechanized_vehicle_entity"
 		name = "PER_mechanized_vehicle_entity_desert"
 		pdxmesh = "PER_mechanized_vehicle_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin)
@@ -616,7 +616,7 @@ entity = {
 			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
 			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###SNOW###
@@ -624,7 +624,7 @@ entity = {
 		clone = "PER_mechanized_2_entity"
 		name = "PER_mechanized_2_entity_snow"
 		pdxmesh = "PER_mechanized_2_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #M3 Half-track (USA_mechanized Reskin) ###DESERT###
@@ -632,7 +632,7 @@ entity = {
 		clone = "PER_mechanized_2_entity"
 		name = "PER_mechanized_2_entity_desert"
 		pdxmesh = "PER_mechanized_2_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 ###############################################
@@ -649,7 +649,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "PER_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "PER_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -659,7 +659,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "PER_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "PER_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.600
 	}
 
 	entity = {
@@ -669,7 +669,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "PER_mechanized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "PER_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.320
 	}
 
 
@@ -787,7 +787,7 @@ entity = {
 			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
 		}
-	scale = 0.240
+	scale = 0.320
 	}
 
 ### Mechanized ------------------------------------------------------------------------------------------------------------
@@ -796,14 +796,14 @@ entity = {
 		clone = "AFG_mechanized_entity"
 		name = "IRQ_mechanized_0_entity"
 		pdxmesh = "IRQ_mechanized_vehicle_0_mesh"
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
 		clone = "AFG_mechanized_entity"
 		name = "IRQ_mechanized_1_entity"
 		pdxmesh = "IRQ_mechanized_vehicle_0_mesh"
-	scale = 0.400
+	scale = 0.320
 	}
 
 #Churchill Kangaroo 
@@ -836,7 +836,7 @@ entity = {
 			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
 			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
 		}
-	scale = 0.360
+	scale = 0.320
 	}
 
 #Churchill Kangaroo ###SNOW###
@@ -844,7 +844,7 @@ entity = {
 		clone = "IRQ_mechanized_vehicle_2_entity"
 		name = "IRQ_mechanized_vehicle_2_entity_snow"
 		pdxmesh = "IRQ_mechanized_vehicle_2_snow_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 #Churchill Kangaroo ###DESERT###
@@ -852,7 +852,7 @@ entity = {
 		clone = "IRQ_mechanized_vehicle_2_entity"
 		name = "IRQ_mechanized_vehicle_2_entity_desert"
 		pdxmesh = "IRQ_mechanized_vehicle_2_desert_mesh"	
-	scale = 0.400
+	scale = 0.320
 	}
 
 ###############################################
@@ -869,7 +869,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "ENG_infantry_weapon_rifle_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ENG_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 	entity = {
@@ -882,7 +882,7 @@ entity = {
 		attach = { 	name = "rifle3"	mid_back_node = "ENG_infantry_weapon_mg_long_idle_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ENG_infantry_weapon_rifle_right_entity" }
 		
-	scale = 0.400
+	scale = 0.320
 	}
 
 ##SNOW
@@ -918,7 +918,7 @@ entity = {
 		
 		attach = { 	name = "vehicle"			vehicle = "IRQ_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_rifle_entity" }
-	scale = 0.400
+	scale = 0.600
 	}
 
 	entity = {
@@ -933,7 +933,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_2_entity" }
 		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_mg_entity" }
@@ -952,7 +952,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_2_entity_snow" }
 		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_mg_entity" }
@@ -971,7 +971,7 @@ entity = {
 		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
-	scale = 0.400
+	scale = 0.320
 		
 		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_2_entity_desert" }
 		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_mg_entity" }

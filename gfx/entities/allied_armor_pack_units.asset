@@ -130,7 +130,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.880
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -271,7 +271,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 0.5
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -321,7 +321,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 
-	scale = 0.375
+	scale = 0.320
 	
 	game_data = {
 		texture_anim_speed = 0.5
@@ -373,7 +373,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -416,7 +416,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -459,7 +459,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -506,7 +506,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 1.540
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1003,7 +1003,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.770
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1047,7 +1047,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.770
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1235,7 +1235,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.45
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1309,7 +1309,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.5
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1763,7 +1763,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.880
+	scale = 0.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1948,7 +1948,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 
-	scale = 0.55
+	scale = 0.320
 	
 	game_data = {
 		texture_anim_speed = 0.5
@@ -1995,7 +1995,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 
-	scale = 0.5
+	scale = 0.320
 	
 	game_data = {
 		texture_anim_speed = 0.5
@@ -2048,7 +2048,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 
-	scale = 0.55
+	scale = 0.320
 	
 	game_data = {
 		texture_anim_speed = 0.5
@@ -2095,7 +2095,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 
-	scale = 0.375
+	scale = 0.320
 	
 	game_data = {
 		texture_anim_speed = 0.5
