@@ -327,6 +327,12 @@ PixelShader =
             
             DebugReturn(vOut, lightingProperties, fShadowTerm);
 
+            // Vibrant tone & richer saturation
+            float lum = dot( vOut, float3( 0.299f, 0.587f, 0.114f ) );
+            vOut = lerp( vec3( lum ), vOut, 1.25f );
+            vOut = ( vOut - 0.5f ) * 1.05f + 0.5f;
+            vOut = saturate( vOut );
+
             return float4( vOut, vNightFactor * CITY_LIGHTS_BLOOM_FACTOR );
         }       
     ]]

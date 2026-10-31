@@ -347,6 +347,11 @@ PixelShader =
 			float3 vOut = ComposeLight(lightingProperties, diffuseLight, specularLight);
 			vOut = DayNightWithBlend( vOut, CalcGlobeNormal( Input.pos.xz ), lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 		
+			float lumWater = dot( vOut, float3( 0.299f, 0.587f, 0.114f ) );
+			vOut = lerp( vec3( lumWater ), vOut, 1.20f );
+			vOut = ( vOut - 0.5f ) * 1.05f + 0.5f;
+			vOut = saturate( vOut );
+
 			return float4( vOut, 1.0f - waterShore );
 		}
 	]]

@@ -361,6 +361,11 @@ PixelShader =
 			vFastFade = vFastFade * vFastFade;
 			float vDesiredFade = (lerp( vFadeValue * 2.0f, 0.0f, saturate( waterSideAlpha.x * 4.0f ) ));
 			float vAlphaMultiplier = saturate(lerp( vDesiredFade, 1.0f, vFastFade ));
+			float lumRiver = dot( vOut, float3( 0.299f, 0.587f, 0.114f ) );
+			vOut = lerp( vec3( lumRiver ), vOut, 1.20f );
+			vOut = ( vOut - 0.5f ) * 1.05f + 0.5f;
+			vOut = saturate( vOut );
+
 			return float4( vOut, waterSideAlpha.y * vAlphaMultiplier * Input.vTransp );
 		}
 	]]

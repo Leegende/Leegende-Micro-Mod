@@ -951,6 +951,8 @@ PixelShader =
 
 		// Grab multisampled border color
 		float4 vGBDist = gradient_border_multisample_alpha( tex2D( gbTex, uv ), gbTex, uv );
+		// Darken country colors
+		vGBDist.rgb = pow( vGBDist.rgb, 1.25f ) * 0.76f;
 
 		float Alpha = vGBDist.a;
 
@@ -1080,6 +1082,7 @@ PixelShader =
 	void secondary_color_mask( inout float3 vColor, float3 vNormal, float2 vUV, in sampler2D TexMaskSampler, inout float vBloomAlpha )
 	{
 		float4 vColorMask = tex2D( TexMaskSampler, vUV ).rgba;
+		vColorMask.rgb = pow( vColorMask.rgb, 1.25f ) * 0.76f;
 
 		float vOccupationMask = CalculateOccupationMask( vUV );
 		vOccupationMask *= vColorMask.a;
