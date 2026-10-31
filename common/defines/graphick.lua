@@ -93,3 +93,9 @@ NDefines_Graphics.NGraphics.DRAW_SHADOWS_CUTOFF = 0
 NDefines_Graphics.NGraphics.DRAW_SHADOWS_FADE_LENGTH = 0
 NDefines_Graphics.NGraphics.DRAW_FOW_CUTOFF = 475
 NDefines_Graphics.NGraphics.DRAW_FOW_FADE_LENGTH = 100
+
+-- Remove Driving Train Models
+NDefines_Graphics.NGraphics.MIN_TRAIN_WAGON_COUNT = 0
+NDefines_Graphics.NGraphics.MAX_TRAIN_WAGON_COUNT = 0
+NDefines_Graphics.NGraphics.TUNNELBANA_TIMETABLE = { 999999999, 999999999 }
+NDefines_Graphics.NGraphics.TRAIN_MAP_SPEED = 0.0

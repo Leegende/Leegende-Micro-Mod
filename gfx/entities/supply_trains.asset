@@ -1,0 +1,489 @@
+entity = {
+	name = "ENG_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "ENG_train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "ENG_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "ENG_train_locomotive_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "FRA_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "FRA_train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "FRA_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "FRA_train_locomotive_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "GER_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "GER_train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "GER_train_coal_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "GER_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "GER_train_locomotive_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "GER_train_locomotive_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "ITA_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "ITA_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_coal_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_locomotive_1_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_locomotive_2_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "JAP_train_locomotive_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "SOV_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "SOV_train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "SOV_train_coal_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "SOV_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "SOV_train_locomotive_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "SOV_train_locomotive_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "USA_train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "USA_train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "USA_train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "USA_train_locomotive_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "european_train_cargowaggon_01_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "european_train_locomotive_01_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "european_train_passenger_waggon_01_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "flat_wagon_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "generic_transport_rail_train_a_01_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "tank_wagon_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "tank_wagon_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_coal_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_coal_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_coal_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_locomotive_1_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_locomotive_2_equipment_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_locomotive_equipment_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "train_locomotive_equipment_3_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "wagon_1_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
+
+entity = {
+	name = "wagon_2_entity"
+	pdxmesh = "european_train_locomotive_01_mesh"
+	scale = 0.0
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "moving" }
+	state = { name = "move" }
+}
