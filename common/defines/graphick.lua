@@ -1,6 +1,6 @@
 -- Country Colors
 NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.75 
-NDefines_Graphics.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.7 
+NDefines_Graphics.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.8
 
 -- Map Mode & Borders
 NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
