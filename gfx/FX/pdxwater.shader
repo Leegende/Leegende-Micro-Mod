@@ -298,8 +298,7 @@ PixelShader =
 			float vSpecularIntensity = 0.000f;
 			float vGlossiness = 0; 
 			
-			float3 cubeSample = texCUBE( ReflectionCubeMap, reflection ).rgb;
-			float3 reflectiveColor = ( dot( cubeSample, cubeSample ) < 0.0005f ) ? refractiveColor : cubeSample;
+			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb;
 		
 			float3 refrSample = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;//underwater structure
 			float3 refractiveColor = ( dot( refrSample, refrSample ) < 0.0005f ) ? float3( 0.038f, 0.085f, 0.170f ) : refrSample;
@@ -347,11 +346,6 @@ PixelShader =
 			float3 vOut = ComposeLight(lightingProperties, diffuseLight, specularLight);
 			vOut = DayNightWithBlend( vOut, CalcGlobeNormal( Input.pos.xz ), lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 		
-			float lumWater = dot( vOut, float3( 0.299f, 0.587f, 0.114f ) );
-			vOut = lerp( vec3( lumWater ), vOut, 1.20f );
-			vOut = ( vOut - 0.5f ) * 1.05f + 0.5f;
-			vOut = saturate( vOut );
-
 			return float4( vOut, 1.0f - waterShore );
 		}
 	]]

@@ -323,8 +323,7 @@ PixelShader =
 			
 			float3 vEyeDir = normalize( Input.vPrePos_Fade.xyz - vCamPos.xyz );
 			float3 reflection = reflect( vEyeDir, normal );
-			float3 cubeSample = texCUBE( ReflectionCubeMap, reflection ).rgb * 1.3;
-			float3 reflectiveColor = ( dot( cubeSample, cubeSample ) < 0.0005f ) ? waterColor : cubeSample;
+			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb * 1.3;
 
 			float fresnelBias = 0.5f;
 			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.5f;
@@ -361,11 +360,6 @@ PixelShader =
 			vFastFade = vFastFade * vFastFade;
 			float vDesiredFade = (lerp( vFadeValue * 2.0f, 0.0f, saturate( waterSideAlpha.x * 4.0f ) ));
 			float vAlphaMultiplier = saturate(lerp( vDesiredFade, 1.0f, vFastFade ));
-			float lumRiver = dot( vOut, float3( 0.299f, 0.587f, 0.114f ) );
-			vOut = lerp( vec3( lumRiver ), vOut, 1.20f );
-			vOut = ( vOut - 0.5f ) * 1.05f + 0.5f;
-			vOut = saturate( vOut );
-
 			return float4( vOut, waterSideAlpha.y * vAlphaMultiplier * Input.vTransp );
 		}
 	]]
