@@ -300,29 +300,13 @@ PixelShader =
 			
 			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb;
 		
-		#ifdef NO_REFRACTIONS
-			float3 refractiveColor = float3( 0.038f, 0.055f, 0.090f );
-			float fresnelBias = 0.5f;
-			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.5f;
-			fresnel = saturate( fresnelBias + ( 1.0f - fresnelBias ) * pow( 1.0f - fresnel, 10.0) );
-			if ( max( reflectiveColor.r, max( reflectiveColor.g, reflectiveColor.b ) ) > 0.005f )
-			{
-				refractiveColor = refractiveColor * ( 1.0f - fresnel ) + reflectiveColor * fresnel;
-			}
-		#else
-			float3 refractiveColor = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;//underwater structure
+			float3 refrSample = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;//underwater structure
+			float3 refractiveColor = ( dot( refrSample, refrSample ) < 0.0005f ) ? float3( 0.038f, 0.085f, 0.170f ) : refrSample;
 
 			float fresnelBias = 0.5f; // CUBEMAP INTENSITY
 			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.5f;
 			fresnel = saturate( fresnelBias + ( 1.0f - fresnelBias ) * pow( 1.0f - fresnel, 10.0) );
 			refractiveColor = refractiveColor * ( 1.0f - fresnel ) + reflectiveColor * fresnel;
-
-			// Fallback: if water reflections/refractions are disabled or empty, keep the water blue instead of pitch black
-			if ( max( refractiveColor.r, max( refractiveColor.g, refractiveColor.b ) ) < 0.005f )
-			{
-				refractiveColor = float3( 0.038f, 0.055f, 0.090f );
-			}
-		#endif
 			
 			float vIceFade = 0.0f;
 		
@@ -381,14 +365,12 @@ Effect water_low_gfx
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShader"
-	Defines = { "NO_REFRACTIONS" }
 }
 
 Effect water_no_refractions
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShader"
-	Defines = { "NO_REFRACTIONS" }
 }
 
 Effect water

@@ -1,4 +1,4 @@
-﻿####################################################### AUSTRIA ###########################################################
+####################################################### AUSTRIA ###########################################################
 
 ### Light -----------------------------------------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.305
+	scale = 1.980
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -80,7 +80,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.45
+	scale = 2.200
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -125,7 +125,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.45
+	scale = 2.200
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -170,7 +170,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 0.725
+	scale = 1.100
 
 	game_data = {
 		texture_anim_speed = 0.2
@@ -211,7 +211,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -223,7 +223,7 @@ entity = {
 entity = {
 	clone = "BEL_light_armor_0_entity"
 	name = "BEL_light_armor_entity"
-	scale = 1.45
+	scale = 2.200
 }
 
 #Vickers T13 tank destroyer
@@ -260,7 +260,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }  
 	}
 	
-	scale = 0.58
+	scale = 0.880
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -272,7 +272,7 @@ entity = {
 entity = {
 	clone = "BEL_light_tank_destroyer_brigade_0_entity"
 	name = "BEL_light_tank_destroyer_brigade_entity"
-	scale = 1.45
+	scale = 2.200
 }
 
 
@@ -311,7 +311,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.595
+	scale = 2.420
 	
 	game_data = {
 		texture_anim_speed = 0.5
@@ -357,7 +357,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.45
+	scale = 2.200
 
 	game_data = {
 		texture_anim_speed = 0.5

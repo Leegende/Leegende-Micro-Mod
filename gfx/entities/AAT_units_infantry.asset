@@ -1,4 +1,4 @@
-﻿####################################################### DENMARK ###########################################################
+####################################################### DENMARK ###########################################################
 
 ##############################################
 ########## DANISH DEFAULT INFANTRY ###########
@@ -51,7 +51,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.576
+	scale = 0.320
 
 }
 
@@ -96,14 +96,14 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.576
+	scale = 0.320
 
 }
 
 entity = {
 	clone = "DEN_infantry_2_entity"
 	name = "DEN_infantry_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -121,7 +121,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }		
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }			
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -134,13 +134,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }		
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }			
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_infantry_2_entity_snow"
 	name = "DEN_infantry_3_entity_snow"
-	scale = 0.72
+	scale = 0.400
 }
 
 ##############################################
@@ -157,7 +157,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -170,13 +170,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_infantry_2_alt_0_entity"
 	name = "DEN_infantry_3_alt_0_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 ##############################################
@@ -193,7 +193,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -206,13 +206,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_infantry_2_alt_0_entity_snow"
 	name = "DEN_infantry_3_alt_0_entity_snow"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -229,7 +229,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -242,13 +242,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_militia_2_entity"
 	name = "DEN_militia_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -265,7 +265,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -278,13 +278,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_militia_2_entity_snow"
 	name = "DEN_militia_3_entity_snow"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -301,7 +301,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -314,13 +314,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_militia_2_alt_0_entity"
 	name = "DEN_militia_3_alt_0_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -337,7 +337,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -350,13 +350,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "DEN_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "DEN_militia_2_alt_0_entity_snow"
 	name = "DEN_militia_3_alt_0_entity_snow"
-	scale = 0.72
+	scale = 0.400
 }
 
 ####################################
@@ -383,7 +383,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "DEN_bicycle_rider_rifle_entity" }
 	attach = { 	name = "combined"		combined = "DEN_bicycle_rifle_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "DEN_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -393,7 +393,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" animation = "still" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -410,7 +410,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "DEN_bicycle_rider_rifle_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -437,7 +437,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "DEN_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -459,7 +459,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "DEN_bicycle_rider_mg_entity" }
 	attach = { 	name = "combined"		combined = "DEN_bicycle_mg_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "DEN_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -476,7 +476,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "DEN_bicycle_rider_mg_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -501,7 +501,7 @@ entity = {
 	attach = { 	name = "rifle1"	Right_Hand_node = "DEN_infantry_weapon_mg_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "DEN_infantry_weapon_mg_left_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 ####################################################### FINLAND ###########################################################
@@ -520,7 +520,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "SOV_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SOV_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -533,13 +533,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "SOV_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "SOV_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "FIN_militia_2_entity"
 	name = "FIN_militia_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -556,7 +556,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "SOV_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SOV_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -569,13 +569,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "SOV_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "SOV_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "FIN_militia_2_alt_0_entity"
 	name = "FIN_militia_3_alt_0_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 ####################################################### ICELAND ############################################################
@@ -596,7 +596,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -609,13 +609,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_infantry_2_entity"
 	name = "NOR_infantry_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -632,7 +632,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -645,13 +645,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_infantry_2_entity_snow"
 	name = "NOR_infantry_3_entity_snow"
-	scale = 0.72
+	scale = 0.400
 }
 
 ##############################################
@@ -668,7 +668,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -681,13 +681,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_infantry_2_alt_1_entity"
 	name = "NOR_infantry_3_alt_1_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -704,7 +704,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -717,13 +717,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_marine_2_entity"
 	name = "NOR_marine_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -740,7 +740,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -753,13 +753,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_militia_2_entity"
 	name = "NOR_militia_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -776,7 +776,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -789,13 +789,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_militia_2_alt_1_entity"
 	name = "NOR_militia_3_alt_1_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -811,7 +811,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "DEN_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle3"	mid_back_node = "DEN_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -823,13 +823,13 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node 	= "ENG_infantry_weapon_mg_left_entity" }
 	attach = { 	name = "rifle3"	mid_back_node 	= "ENG_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "ENG_infantry_weapon_rifle_right_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "NOR_irregular_2_entity"
 	name = "NOR_irregular_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 ####################################
@@ -848,7 +848,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "NOR_bicycle_rider_rifle_entity" }
 	attach = { 	name = "combined"		combined = "NOR_bicycle_rifle_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "NOR_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -856,7 +856,7 @@ entity = {
 	name = "NOR_bicycle_vehicle_entity"
 	pdxmesh = "bicycle_vehicle_mesh"
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -866,7 +866,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "NOR_bicycle_rider_rifle_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -878,7 +878,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "DEN_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "DEN_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -892,7 +892,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "NOR_bicycle_rider_mg_entity" }
 	attach = { 	name = "combined"		combined = "NOR_bicycle_mg_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "NOR_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -902,7 +902,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "NOR_bicycle_rider_mg_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -913,7 +913,7 @@ entity = {
 	attach = { 	name = "rifle1"	Right_Hand_node = "ENG_infantry_weapon_mg_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "ENG_infantry_weapon_mg_left_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 ####################################################### SWEDEN ############################################################
@@ -932,7 +932,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "SWE_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -945,13 +945,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "SWE_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "SWE_infantry_2_entity"
 	name = "SWE_infantry_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -968,7 +968,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "SWE_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -981,13 +981,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "SWE_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "SWE_militia_2_entity"
 	name = "SWE_militia_3_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -1004,7 +1004,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "SWE_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -1017,13 +1017,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "SWE_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "SWE_militia_2_alt_0_entity"
 	name = "SWE_militia_3_alt_0_entity"
-	scale = 0.72
+	scale = 0.400
 }
 
 #################################################
@@ -1040,7 +1040,7 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node = "SWE_infantry_weapon_rifle_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -1053,13 +1053,13 @@ entity = {
 	attach = { 	name = "rifle3"	mid_back_node 	= "SWE_infantry_weapon_mg_long_idle_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 	= "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
 	clone = "SWE_militia_2_alt_0_entity"
 	name = "SWE_militia_3_alt_0_entity_snow"
-	scale = 0.72
+	scale = 0.400
 }
 
 ####################################
@@ -1078,7 +1078,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "SWE_bicycle_rider_rifle_entity" }
 	attach = { 	name = "combined"		combined = "SWE_bicycle_rifle_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "SWE_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -1086,7 +1086,7 @@ entity = {
 	name = "SWE_bicycle_vehicle_entity"
 	pdxmesh = "bicycle_vehicle_mesh"
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -1096,7 +1096,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "SWE_bicycle_rider_rifle_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -1108,7 +1108,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "SWE_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SWE_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -1122,7 +1122,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "SWE_bicycle_rider_mg_entity" }
 	attach = { 	name = "combined"		combined = "SWE_bicycle_mg_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "SWE_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -1132,7 +1132,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "SWE_bicycle_rider_mg_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -1143,7 +1143,7 @@ entity = {
 	attach = { 	name = "rifle1"	Right_Hand_node = "SWE_infantry_weapon_mg_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "SWE_infantry_weapon_mg_left_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 ########################################################################################################################

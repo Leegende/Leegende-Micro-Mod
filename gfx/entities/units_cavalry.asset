@@ -1,4 +1,4 @@
-﻿	entity = {
+	entity = {
 		name = "infantry_cavalry_horse_entity"
 		pdxmesh = "infantry_cavalry_horse_mesh"
 		
@@ -11,7 +11,7 @@
 		state = { name = "retreat"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -27,7 +27,7 @@
 		state = { name = "retreat"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -60,7 +60,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ENG_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ENG_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -86,7 +86,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "western_european_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ENG_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -106,7 +106,7 @@
 		attach = { 	name = "cavalry"			cavalry = "generic_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -122,7 +122,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -142,7 +142,7 @@
 		attach = { 	name = "cavalry"			cavalry = "generic_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -160,7 +160,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "generic_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -180,7 +180,7 @@
 		attach = { 	name = "cavalry"			cavalry = "generic_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -196,7 +196,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -216,7 +216,7 @@
 		attach = { 	name = "cavalry"			cavalry = "generic_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -234,7 +234,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "generic_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -267,7 +267,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -293,7 +293,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "eastern_european_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -313,7 +313,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ROM_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -329,7 +329,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ROM_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -349,7 +349,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ROM_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -367,7 +367,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ROM_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -400,7 +400,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -426,7 +426,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -446,7 +446,7 @@
 		attach = { 	name = "cavalry"			cavalry = "asian_gfx_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -462,7 +462,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "asian_gfx_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -482,7 +482,7 @@
 		attach = { 	name = "cavalry"			cavalry = "asian_gfx_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -500,7 +500,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "asian_gfx_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -533,7 +533,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -559,7 +559,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "southamerican_gfx_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -579,7 +579,7 @@
 		attach = { 	name = "cavalry"			cavalry = "southamerican_gfx_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -595,7 +595,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "southamerican_gfx_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -615,7 +615,7 @@
 		attach = { 	name = "cavalry"		cavalry = "southamerican_gfx_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -633,7 +633,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "southamerican_gfx_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -666,7 +666,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ENG_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ENG_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -692,7 +692,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ENG_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ENG_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -712,7 +712,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ENG_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -728,7 +728,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ENG_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -748,7 +748,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ENG_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -766,7 +766,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ENG_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -786,7 +786,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ENG_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -802,7 +802,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ENG_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -822,7 +822,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ENG_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -840,7 +840,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ENG_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 ############
@@ -881,7 +881,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "SOV_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "SOV_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 
 	entity = {
@@ -897,7 +897,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -917,7 +917,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 
@@ -946,7 +946,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "SOV_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "SOV_infantry_weapon_mg_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 
 	entity = {
@@ -964,7 +964,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -984,14 +984,14 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_entity"
 		name = "FIN_cavalry_3_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 #################################################
@@ -1004,8 +1004,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_entity_snow"
 		pdxmesh = "FIN_infantry_snow_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1014,8 +1014,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_entity_snow" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1025,8 +1025,8 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_rider_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -1035,8 +1035,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_entity_snow"
 		pdxmesh = "FIN_infantry_snow_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1044,8 +1044,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_entity_snow" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1055,14 +1055,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_entity_snow"
 		name = "FIN_cavalry_3_entity_snow"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 
@@ -1077,8 +1077,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_entity_desert"
 		pdxmesh = "FIN_infantry_desert_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1087,8 +1087,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_entity_desert" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1098,8 +1098,8 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_rider_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -1108,8 +1108,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_entity_desert"
 		pdxmesh = "FIN_infantry_desert_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1117,8 +1117,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_entity_desert" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1128,14 +1128,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_entity_desert"
 		name = "FIN_cavalry_3_entity_desert"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 	####### CAMELRY #######
@@ -1152,7 +1152,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1170,7 +1170,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1190,7 +1190,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -1210,14 +1210,14 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
 		clone = "FIN_camelry_2_entity"
 		name = "FIN_camelry_3_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 
@@ -1234,8 +1234,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_alt_0_entity"
 		pdxmesh = "FIN_infantry_alt_0_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1243,8 +1243,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_0_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1255,7 +1255,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_alt_0_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 
@@ -1265,8 +1265,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_alt_0_entity"
 		pdxmesh = "FIN_infantry_alt_0_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1274,8 +1274,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"
 				
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_0_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1285,14 +1285,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_alt_0_entity" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_alt_0_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_alt_0_entity"
 		name = "FIN_cavalry_3_alt_0_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 #################################################
@@ -1305,8 +1305,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_alt_0_entity_snow"
 		pdxmesh = "FIN_infantry_snow_alt_0_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1315,8 +1315,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_0_entity_snow" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1326,8 +1326,8 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_rider_alt_0_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_alt_0_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -1336,8 +1336,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_alt_0_entity_snow"
 		pdxmesh = "FIN_infantry_snow_alt_0_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1345,8 +1345,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_0_entity_snow" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1356,14 +1356,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_alt_0_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_alt_0_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_alt_0_entity_snow"
 		name = "FIN_cavalry_3_alt_0_entity_snow"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 
@@ -1378,8 +1378,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_alt_0_entity_desert"
 		pdxmesh = "FIN_infantry_desert_alt_0_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1388,8 +1388,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_0_entity_desert" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1399,8 +1399,8 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_rider_alt_0_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_alt_0_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -1409,8 +1409,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_alt_0_entity_desert"
 		pdxmesh = "FIN_infantry_desert_alt_0_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1418,8 +1418,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_0_entity_desert" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1429,14 +1429,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_alt_0_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_alt_0_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_alt_0_entity_desert"
 		name = "FIN_cavalry_3_alt_0_entity_desert"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 	####### CAMELRY #######
@@ -1453,7 +1453,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_0_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1471,7 +1471,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_0_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1491,7 +1491,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_camelry_rifle_combined_alt_0_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -1511,14 +1511,14 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_camelry_mg_combined_alt_0_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
 		clone = "FIN_camelry_2_alt_0_entity"
 		name = "FIN_camelry_3_alt_0_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 #################################################
@@ -1531,8 +1531,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_alt_1_entity"
 		pdxmesh = "FIN_infantry_alt_1_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1540,8 +1540,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_1_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1552,7 +1552,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_alt_1_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 
@@ -1562,8 +1562,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_alt_1_entity"
 		pdxmesh = "FIN_infantry_alt_1_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1571,8 +1571,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"
 				
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_1_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1582,14 +1582,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_alt_1_entity" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_alt_1_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_alt_1_entity"
 		name = "FIN_cavalry_3_alt_1_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 #################################################
@@ -1602,8 +1602,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_alt_1_entity_snow"
 		pdxmesh = "FIN_infantry_snow_alt_1_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1612,8 +1612,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_1_entity_snow" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1623,8 +1623,8 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_rider_alt_1_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_alt_1_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -1633,8 +1633,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_alt_1_entity_snow"
 		pdxmesh = "FIN_infantry_snow_alt_1_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1642,8 +1642,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_1_entity_snow" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1653,14 +1653,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_alt_1_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_alt_1_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_alt_1_entity_snow"
 		name = "FIN_cavalry_3_alt_1_entity_snow"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 
@@ -1675,8 +1675,8 @@
 		clone = "FIN_infantry_rider_entity"
 		name = "FIN_infantry_rider_alt_1_entity_desert"
 		pdxmesh = "FIN_infantry_desert_alt_1_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_rifle_combined_entity"
@@ -1685,8 +1685,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_1_entity_desert" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_entity"
@@ -1696,8 +1696,8 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_rider_alt_1_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_rifle_combined_alt_1_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -1706,8 +1706,8 @@
 		clone = "FIN_infantry_mg_rider_entity"
 		name = "FIN_infantry_mg_rider_alt_1_entity_desert"
 		pdxmesh = "FIN_infantry_desert_alt_1_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_mg_combined_entity"
@@ -1715,8 +1715,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_1_entity_desert" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "FIN_cavalry_2_entity"
@@ -1726,14 +1726,14 @@
 		attach = { 	name = "infantry"			infantry = "FIN_infantry_mg_rider_alt_1_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "FIN_cavalry_mg_combined_alt_1_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "FIN_cavalry_2_alt_1_entity_desert"
 		name = "FIN_cavalry_3_alt_1_entity_desert"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 	####### CAMELRY #######
@@ -1750,7 +1750,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_rider_alt_1_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1768,7 +1768,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FIN_infantry_mg_rider_alt_1_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1788,7 +1788,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_camelry_rifle_combined_alt_1_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -1808,14 +1808,14 @@
 		attach = { 	name = "cavalry"			cavalry = "FIN_camelry_mg_combined_alt_1_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
 		clone = "FIN_camelry_2_alt_1_entity"
 		name = "FIN_camelry_3_alt_1_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 ############
 #
@@ -1847,7 +1847,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "FRA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "FRA_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -1873,7 +1873,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "FRA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "FRA_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -1893,7 +1893,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FRA_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -1909,7 +1909,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FRA_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -1929,7 +1929,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FRA_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -1947,7 +1947,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FRA_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -1967,7 +1967,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FRA_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -1983,7 +1983,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FRA_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2003,7 +2003,7 @@
 		attach = { 	name = "cavalry"			cavalry = "FRA_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2021,7 +2021,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "FRA_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	
@@ -2055,7 +2055,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -2081,7 +2081,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -2101,7 +2101,7 @@
 		attach = { 	name = "cavalry"			cavalry = "GER_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2117,7 +2117,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2137,7 +2137,7 @@
 		attach = { 	name = "cavalry"			cavalry = "GER_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2155,7 +2155,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 
@@ -2169,8 +2169,8 @@
 		clone = "GER_infantry_rider_entity"
 		name = "GER_infantry_rider_entity_desert"
 		pdxmesh = "GER_infantry_desert_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_rifle_combined_entity"
@@ -2179,8 +2179,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_rider_entity_desert" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_entity"
@@ -2190,8 +2190,8 @@
 		attach = { 	name = "infantry"			infantry = "GER_infantry_rider_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "GER_cavalry_rifle_combined_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 ########## MG ##########
@@ -2200,8 +2200,8 @@
 		clone = "GER_infantry_mg_rider_entity"
 		name = "GER_infantry_mg_rider_entity_desert"
 		pdxmesh = "GER_infantry_desert_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_mg_combined_entity"
@@ -2209,8 +2209,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_mg_rider_entity_desert" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_2_entity"
@@ -2220,14 +2220,14 @@
 		attach = { 	name = "infantry"			infantry = "GER_infantry_mg_rider_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "GER_cavalry_mg_combined_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "GER_cavalry_2_entity_desert"
 		name = "GER_cavalry_3_entity_desert"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 ####### CAMELRY #######
@@ -2244,7 +2244,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_rider_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -2262,7 +2262,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_mg_rider_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -2282,7 +2282,7 @@
 		attach = { 	name = "cavalry"			cavalry = "GER_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -2302,14 +2302,14 @@
 		attach = { 	name = "cavalry"			cavalry = "GER_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
 		clone = "GER_camelry_2_entity"
 		name = "GER_camelry_3_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 #################################################
 ###      GERMANY DEFAULT INFANTRY - SNOW      ###
@@ -2321,8 +2321,8 @@
 		clone = "GER_infantry_rider_entity"
 		name = "GER_infantry_rider_entity_snow"
 		pdxmesh = "GER_infantry_snow_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_rifle_combined_entity"
@@ -2331,8 +2331,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_rider_entity_snow" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_entity"
@@ -2342,8 +2342,8 @@
 		attach = { 	name = "infantry"			infantry = "GER_infantry_rider_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "GER_cavalry_rifle_combined_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 ########## MG ##########
@@ -2352,8 +2352,8 @@
 		clone = "GER_infantry_mg_rider_entity"
 		name = "GER_infantry_mg_rider_entity_snow"
 		pdxmesh = "GER_infantry_snow_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_mg_combined_entity"
@@ -2361,8 +2361,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "GER_infantry_mg_rider_entity_snow" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "GER_cavalry_2_entity"
@@ -2372,14 +2372,14 @@
 		attach = { 	name = "infantry"			infantry = "GER_infantry_mg_rider_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "GER_cavalry_mg_combined_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "GER_cavalry_2_entity_snow"
 		name = "GER_cavalry_3_entity_snow"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 ############
@@ -2412,7 +2412,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -2438,7 +2438,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "ITA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "ITA_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -2458,7 +2458,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2474,7 +2474,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2494,7 +2494,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2512,7 +2512,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -2532,7 +2532,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2548,7 +2548,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2568,7 +2568,7 @@
 		attach = { 	name = "cavalry"			cavalry = "ITA_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2586,7 +2586,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "ITA_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	
@@ -2620,7 +2620,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "SOV_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "SOV_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -2646,7 +2646,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "SOV_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "SOV_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -2666,7 +2666,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SOV_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2682,7 +2682,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SOV_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2702,7 +2702,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SOV_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2720,7 +2720,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SOV_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -2753,7 +2753,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "USA_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -2779,7 +2779,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "USA_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -2799,7 +2799,7 @@
 		attach = { 	name = "cavalry"			cavalry = "USA_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2815,7 +2815,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "USA_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2835,7 +2835,7 @@
 		attach = { 	name = "cavalry"			cavalry = "USA_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2853,7 +2853,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "USA_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 ############
@@ -2886,7 +2886,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 
 	entity = {
@@ -2912,7 +2912,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -2932,7 +2932,7 @@
 		attach = { 	name = "cavalry"			cavalry = "JAP_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2948,7 +2948,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -2968,7 +2968,7 @@
 		attach = { 	name = "cavalry"			cavalry = "JAP_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -2986,7 +2986,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 
@@ -3000,8 +3000,8 @@
 		clone = "JAP_infantry_rider_entity"
 		name = "JAP_infantry_rider_entity_snow"
 		pdxmesh = "JAP_infantry_snow_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_rifle_combined_entity"
@@ -3010,8 +3010,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_rider_entity_snow" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_entity"
@@ -3021,8 +3021,8 @@
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_rider_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "JAP_cavalry_rifle_combined_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -3031,8 +3031,8 @@
 		clone = "JAP_infantry_mg_rider_entity"
 		name = "JAP_infantry_mg_rider_entity_snow"
 		pdxmesh = "JAP_infantry_snow_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_mg_combined_entity"
@@ -3040,8 +3040,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_mg_rider_entity_snow" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_2_entity"
@@ -3051,14 +3051,14 @@
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_mg_rider_entity_snow" }
 		attach = { 	name = "cavalry"			cavalry = "JAP_cavalry_mg_combined_entity_snow" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "JAP_cavalry_2_entity_snow"
 		name = "JAP_cavalry_3_entity_snow"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 
@@ -3073,8 +3073,8 @@
 		clone = "JAP_infantry_rider_entity"
 		name = "JAP_infantry_rider_entity_desert"
 		pdxmesh = "JAP_infantry_desert_rifle_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_rifle_combined_entity"
@@ -3083,8 +3083,8 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_rider_entity_desert" }
 		
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_entity"
@@ -3094,8 +3094,8 @@
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_rider_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "JAP_cavalry_rifle_combined_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	
 	########## MG ##########
@@ -3104,8 +3104,8 @@
 		clone = "JAP_infantry_mg_rider_entity"
 		name = "JAP_infantry_mg_rider_entity_desert"
 		pdxmesh = "JAP_infantry_desert_mg_mesh"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_mg_combined_entity"
@@ -3113,8 +3113,8 @@
 		pdxmesh = "infantry_cavalry_horse_mesh"		
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_rider_entity_desert" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = {
 		clone = "JAP_cavalry_2_entity"
@@ -3124,14 +3124,14 @@
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_mg_rider_entity_desert" }
 		attach = { 	name = "cavalry"			cavalry = "JAP_cavalry_mg_combined_entity_desert" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
 		clone = "JAP_cavalry_2_entity_desert"
 		name = "JAP_cavalry_3_entity_desert"
-		scale = 0.72
-}
+	scale = 0.400
+	}
 
 
 	####### CAMELRY #######
@@ -3148,7 +3148,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_rider_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -3166,7 +3166,7 @@
 
 		attach = { 	name = "infantry_unit"			Saddle_Node = "JAP_infantry_mg_rider_entity_desert" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -3186,7 +3186,7 @@
 		attach = { 	name = "cavalry"			cavalry = "JAP_camelry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -3206,11 +3206,11 @@
 		attach = { 	name = "cavalry"			cavalry = "JAP_camelry_mg_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
 		clone = "JAP_camelry_2_entity"
 		name = "JAP_camelry_3_entity"
-		scale = 0.72
-}
+	scale = 0.400
+	}

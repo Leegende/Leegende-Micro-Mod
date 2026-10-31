@@ -1,4 +1,4 @@
-﻿#####################################################################
+#####################################################################
 #####															#####
 #####							SIAM							#####
 #####															#####
@@ -45,7 +45,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -89,7 +89,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -97,7 +97,7 @@ entity = {
 	name = "SIA_infantry_3_entity"
 	pdxmesh = "SIA_infantry_mg_mesh"
 
-	scale = 0.576
+	scale = 0.320
 }
 
 ####################################
@@ -124,7 +124,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "SIA_bicycle_rider_rifle_entity" }
 	attach = { 	name = "combined"		combined = "SIA_bicycle_rifle_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "SIA_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -134,7 +134,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" animation = "still" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -151,7 +151,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "SIA_bicycle_rider_rifle_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -178,7 +178,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "SIA_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "SIA_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -200,7 +200,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "SIA_bicycle_rider_mg_entity" }
 	attach = { 	name = "combined"		combined = "SIA_bicycle_mg_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "SIA_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -217,7 +217,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "SIA_bicycle_rider_mg_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -242,7 +242,7 @@ entity = {
 	attach = { 	name = "rifle1"	Right_Hand_node = "JAP_infantry_weapon_mg_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_mg_left_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -337,7 +337,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -381,7 +381,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 
@@ -409,7 +409,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "INS_bicycle_alt_0_rider_rifle_entity" }
 	attach = { 	name = "combined"		combined = "INS_bicycle_alt_0_rifle_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "INS_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 #INS_bicycle_vehicle_entity in MTG
@@ -438,7 +438,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "INS_bicycle_alt_0_rider_rifle_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -465,7 +465,7 @@ entity = {
 	attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_rifle_left_entity" }
 	attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 
@@ -487,7 +487,7 @@ entity = {
 	attach = { 	name = "infantry"		infantry = "INS_bicycle_alt_0_rider_mg_entity" }
 	attach = { 	name = "combined"		combined = "INS_bicycle_alt_0_mg_combined_entity" }
 	attach = { 	name = "bicycle"		bike = "INS_bicycle_vehicle_entity" }
-	scale = 0.72
+	scale = 0.400
 }
 
 entity = {
@@ -504,7 +504,7 @@ entity = {
 
 	attach = { 	name = "rider"	bike_center = "INS_bicycle_alt_0_rider_mg_entity" }
 
-	scale = 0.576
+	scale = 0.320
 }
 
 entity = {
@@ -529,7 +529,7 @@ entity = {
 	attach = { 	name = "rifle1"	Right_Hand_node = "JAP_infantry_weapon_mg_right_entity" }
 	attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_mg_left_entity" }
 
-	scale = 0.72
+	scale = 0.400
 }
 
 ##############################################

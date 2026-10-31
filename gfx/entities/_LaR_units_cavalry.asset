@@ -1,4 +1,4 @@
-﻿
+
 ############
 # PORTUGAL #
 ############
@@ -26,7 +26,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -52,7 +52,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "southamerican_gfx_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -72,7 +72,7 @@
 		attach = { 	name = "cavalry"			cavalry = "POR_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -88,7 +88,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "POR_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -108,7 +108,7 @@
 		attach = { 	name = "cavalry"		cavalry = "POR_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -126,7 +126,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "POR_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 #######################
@@ -156,7 +156,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -182,7 +182,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "southamerican_gfx_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -202,7 +202,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_nationalist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -218,7 +218,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_nationalist_spain_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -238,7 +238,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_nationalist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -256,7 +256,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_nationalist_spain_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -276,7 +276,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_nationalist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -296,7 +296,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_nationalist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -316,7 +316,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_carlist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -336,7 +336,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_carlist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -356,7 +356,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_carlist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -376,7 +376,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_carlist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -396,7 +396,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_carlist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -416,7 +416,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_carlist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 ###################
@@ -446,7 +446,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -472,7 +472,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "southamerican_gfx_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -492,7 +492,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_carlist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -508,7 +508,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_carlist_spain_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -528,7 +528,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_carlist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -546,7 +546,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_carlist_spain_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -566,7 +566,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_carlist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -586,7 +586,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_carlist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 #####################
@@ -616,7 +616,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -642,7 +642,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "southamerican_gfx_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -662,7 +662,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_anarchist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -678,7 +678,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_anarchist_spain_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -698,7 +698,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_anarchist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -716,7 +716,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_anarchist_spain_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 	entity = {
@@ -736,7 +736,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_anarchist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	entity = {
 		name = "SPC_regional_defense_council_of_iberia_cavalry_2_entity"
@@ -755,7 +755,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_anarchist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -775,7 +775,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_anarchist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	entity = {
 		name = "SPC_global_defense_council_cavalry_2_entity"
@@ -794,7 +794,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_anarchist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 
 	entity = {
@@ -814,7 +814,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_anarchist_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	entity = {
 		name = "SPC_poum_cavalry_2_entity"
@@ -833,7 +833,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_anarchist_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 ######################
@@ -863,7 +863,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
 		
-		scale = 0.576			
+	scale = 0.320
 	}	
 	
 	entity = {
@@ -889,7 +889,7 @@
 		attach = { 	name = "rifle2"	Left_Hand_node = "southamerican_gfx_infantry_weapon_mg_left_entity" }
 		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }	
 		
-		scale = 0.576			
+	scale = 0.320
 	}
 	
 	entity = {
@@ -909,7 +909,7 @@
 		attach = { 	name = "cavalry"			cavalry = "SPR_republican_spain_cavalry_rifle_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -925,7 +925,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_republican_spain_infantry_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 	
 	entity = {
@@ -945,7 +945,7 @@
 		attach = { 	name = "cavalry"		cavalry = "SPR_republican_spain_cavalry_mg_combined_entity" }
 		attach = { 	name = "horse"			horse = "infantry_cavalry_horse_entity" }
 		
-		scale = 0.72
+	scale = 0.400
 	}
 	
 	entity = {
@@ -963,7 +963,7 @@
 		
 		attach = { 	name = "infantry_unit"			Saddle_Node = "SPR_republican_spain_infantry_mg_rider_entity" }
 		
-		scale = 0.468
+	scale = 0.260
 	}
 
 

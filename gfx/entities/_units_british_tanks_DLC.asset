@@ -1,4 +1,4 @@
-﻿##########################
+##########################
 # Matilda (ENG_light_armor_1)
 ##########################
 
@@ -38,7 +38,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.507
+	scale = 0.770
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -85,7 +85,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.507
+	scale = 0.770
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -132,7 +132,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.435
+	scale = 0.660
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -179,7 +179,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.58
+	scale = 0.880
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -226,7 +226,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.725
+	scale = 1.100
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -273,7 +273,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.58
+	scale = 0.880
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -317,7 +317,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.653
+	scale = 0.990
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -364,7 +364,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.653
+	scale = 0.990
 
 	game_data = {
 		texture_anim_speed = 0.5

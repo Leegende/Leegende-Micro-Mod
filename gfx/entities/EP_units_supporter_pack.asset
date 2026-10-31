@@ -1,4 +1,4 @@
-﻿####################################################### GERMANY ###########################################################
+####################################################### GERMANY ###########################################################
 ### Light -----------------------------------------------------------------------------------------------------------------
 
 #Pz.Sfl. II
@@ -35,7 +35,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }  
 	}
 	
-	scale = 0.58
+	scale = 0.880
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -80,7 +80,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.435
+	scale = 0.660
 	
 	game_data = {
 		texture_anim_speed = 0.4
@@ -128,7 +128,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 1.015
+	scale = 1.540
 	
 	game_data = {
 		texture_anim_speed = 0.3

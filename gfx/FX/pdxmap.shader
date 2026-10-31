@@ -14,8 +14,8 @@ PixelShader =
         TerrainDiffuse =
         {
             Index = 0
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -23,8 +23,8 @@ PixelShader =
         HeightNormal =
         {
             Index = 1
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -32,8 +32,8 @@ PixelShader =
         TerrainColorTint =
         {
             Index = 2
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -41,8 +41,8 @@ PixelShader =
         SnowTexture =
         {
             Index = 3
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -50,8 +50,8 @@ PixelShader =
         TerrainNormal =
         {
             Index = 4
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -68,8 +68,8 @@ PixelShader =
         ProvinceSecondaryColorMap =
         {
             Index = 6
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -77,8 +77,8 @@ PixelShader =
         SnowMudData =
         {
             Index = 7
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -86,8 +86,8 @@ PixelShader =
         CityLightsAndSnowNoise =
         {
             Index = 8
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -95,8 +95,8 @@ PixelShader =
         MudNormalSpec =
         {
             Index = 9
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -122,8 +122,8 @@ PixelShader =
         ShadowMap =
         {
             Index = 12
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -132,8 +132,8 @@ PixelShader =
         MudDiffuseGloss =
         {
             Index = 13
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -141,8 +141,8 @@ PixelShader =
         GradientBorderChannel1 =
         {
             Index = 14
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Clamp"
             AddressV = "Clamp"
@@ -150,8 +150,8 @@ PixelShader =
         GradientBorderChannel2 =
         {
             Index = 15
-            MagFilter = "Linear"
-            MinFilter = "Linear"
+            MagFilter = "Anisotropic"
+            MinFilter = "Anisotropic"
             MipFilter = "Linear"
             AddressU = "Clamp"
             AddressV = "Clamp"
@@ -326,6 +326,8 @@ PixelShader =
             
             DebugReturn(vOut, lightingProperties, fShadowTerm);
 
+            vOut = lerp( dot(vOut, float3(0.299,0.587,0.114)), vOut, 1.15 );
+            vOut = vOut * 1.06;
             return float4( vOut, vNightFactor * CITY_LIGHTS_BLOOM_FACTOR );
         }       
     ]]
@@ -401,26 +403,24 @@ Effect terrain_low_gfx
 {
     VertexShader = "VertexShader"
     PixelShader = "PixelShaderTerrain"
-    Defines = { "LOW_END_GFX" }
+    Defines = { "PDX_IMPROVED_BLINN_PHONG" }
 }
 
 Effect terrain
 {
     VertexShader = "VertexShader"
     PixelShader = "PixelShaderTerrain"
-    Defines = { "LOW_END_GFX" }
+    Defines = { "PDX_IMPROVED_BLINN_PHONG" }
 }
 
 Effect underwater
 {
     VertexShader = "VertexShader"
     PixelShader = "PixelShaderUnderwater"
-    Defines = { "LOW_END_GFX" }
 }
 
 Effect terrainunlit
 {
     VertexShader = "VertexShader"
     PixelShader = "PixelShaderTerrainUnlit" 
-    Defines = { "LOW_END_GFX" }
 }

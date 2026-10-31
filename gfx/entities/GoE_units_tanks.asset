@@ -1,4 +1,4 @@
-﻿
+
 ##################################################### AFGANISTAN ##########################################################
 
 ### Light -----------------------------------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -89,7 +89,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 
-	scale = 1.204
+	scale = 1.826
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -134,7 +134,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -179,7 +179,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 1.45
+	scale = 2.200
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -225,7 +225,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = -0.5
@@ -271,7 +271,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 
-	scale = 1.233
+	scale = 1.870
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -311,7 +311,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.725
+	scale = 1.100
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -353,7 +353,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -395,7 +395,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -444,7 +444,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.507
+	scale = 0.770
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -490,7 +490,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.435
+	scale = 0.660
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -532,7 +532,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -579,7 +579,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 
-	scale = 0.725
+	scale = 1.100
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -621,7 +621,7 @@ entity = {
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -663,7 +663,7 @@ entity = {
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -706,7 +706,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5
@@ -751,7 +751,7 @@ entity = {
 		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 	
-	scale = 0.87
+	scale = 1.320
 
 	game_data = {
 		texture_anim_speed = 0.5

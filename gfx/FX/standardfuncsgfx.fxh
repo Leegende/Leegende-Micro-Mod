@@ -798,12 +798,8 @@ PixelShader =
 	{
 		float vDayNight = DayNightFactor( CalcGlobeNormal( aProperties._WorldSpacePos.xz ) );
 		float3 vAmbientColor = AmbientLight(aProperties._Normal, vDayNight);
-	#ifdef LOW_END_GFX
-		return (((vAmbientColor + aDiffuseLight) * aProperties._Diffuse) * HdrRange) + aSpecularLight;
-	#else
 		float3 SnowAmbient = CalcSnowAmbient(aDiffuseLight, vSnowFactor);
 		return (((SnowAmbient + vAmbientColor + aDiffuseLight) * aProperties._Diffuse) * HdrRange) + aSpecularLight;
-	#endif
 	}
 
 	float3 ComposeLightMesh(LightingProperties aProperties, float3 aDiffuseLight, float3 aSpecularLight, float vSnowFactor )
@@ -891,9 +887,6 @@ PixelShader =
 
 	float4 gradient_border_multisample_alpha( in float4 vCh, in sampler2D TexCh, in float2 vUV )
 	{
-	#ifdef LOW_END_GFX
-		return vCh;
-	#else
 		float vOffsetX = -0.5f / MAP_SIZE_X;
 		float vOffsetY = -0.5f / MAP_SIZE_Y;
 		float4 vResult = vCh;
@@ -907,8 +900,6 @@ PixelShader =
 		vResult += tex2D( TexCh, vUV + float2( -vOffsetX,  vOffsetY ) );
 		vResult /= 9;
 		return vResult;
-		//return vCh;
-	#endif
 	}
 
 	float gradient_border_camera_distance()
