@@ -329,7 +329,7 @@ PixelShader =
 
             // Subtle tone & gentle saturation (dezent)
             float lum = dot( vOut, float3( 0.299f, 0.587f, 0.114f ) );
-            vOut = lerp( vec3( lum ), vOut, 1.05f );
+            vOut = lerp( vec3( lum ), vOut, 1.1f );
             vOut = saturate( vOut );
 
             return float4( vOut, vNightFactor * CITY_LIGHTS_BLOOM_FACTOR );
