@@ -298,7 +298,8 @@ PixelShader =
 			float vSpecularIntensity = 0.000f;
 			float vGlossiness = 0; 
 			
-			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb;
+			float3 cubeSample = texCUBE( ReflectionCubeMap, reflection ).rgb;
+			float3 reflectiveColor = ( dot( cubeSample, cubeSample ) < 0.0005f ) ? refractiveColor : cubeSample;
 		
 			float3 refrSample = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;//underwater structure
 			float3 refractiveColor = ( dot( refrSample, refrSample ) < 0.0005f ) ? float3( 0.038f, 0.085f, 0.170f ) : refrSample;

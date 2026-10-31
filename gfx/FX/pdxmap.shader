@@ -14,8 +14,8 @@ PixelShader =
         TerrainDiffuse =
         {
             Index = 0
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -23,8 +23,8 @@ PixelShader =
         HeightNormal =
         {
             Index = 1
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -32,8 +32,8 @@ PixelShader =
         TerrainColorTint =
         {
             Index = 2
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -41,8 +41,8 @@ PixelShader =
         SnowTexture =
         {
             Index = 3
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -50,8 +50,8 @@ PixelShader =
         TerrainNormal =
         {
             Index = 4
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -68,8 +68,8 @@ PixelShader =
         ProvinceSecondaryColorMap =
         {
             Index = 6
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -77,8 +77,8 @@ PixelShader =
         SnowMudData =
         {
             Index = 7
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -86,8 +86,8 @@ PixelShader =
         CityLightsAndSnowNoise =
         {
             Index = 8
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -95,8 +95,8 @@ PixelShader =
         MudNormalSpec =
         {
             Index = 9
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -122,8 +122,8 @@ PixelShader =
         ShadowMap =
         {
             Index = 12
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -132,8 +132,8 @@ PixelShader =
         MudDiffuseGloss =
         {
             Index = 13
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Wrap"
             AddressV = "Wrap"
@@ -141,8 +141,8 @@ PixelShader =
         GradientBorderChannel1 =
         {
             Index = 14
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Clamp"
             AddressV = "Clamp"
@@ -150,8 +150,8 @@ PixelShader =
         GradientBorderChannel2 =
         {
             Index = 15
-            MagFilter = "Anisotropic"
-            MinFilter = "Anisotropic"
+            MagFilter = "Linear"
+            MinFilter = "Linear"
             MipFilter = "Linear"
             AddressU = "Clamp"
             AddressV = "Clamp"
@@ -241,7 +241,7 @@ PixelShader =
                     
             float3 normal = float3( 0, 1, 0 );
             float4 diffuse = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) ).rgba;
-            float vGlossiness = 0.0f;
+            float vGlossiness = diffuse.a;
                                     
             float3 terrain_normal;
             float4 terrain_normalRaw = tex2Dlod( TerrainNormal, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) );
@@ -289,7 +289,7 @@ PixelShader =
 
             // Gradient Borders
             float vBloomAlpha = 0.0f;
-            gradient_border_apply( diffuse.rgb, normal, Input.uv2, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );\n            vBloomAlpha = 0.0f;
+            gradient_border_apply( diffuse.rgb, normal, Input.uv2, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
                     
             // Secondary color mask
             secondary_color_mask( diffuse.rgb, normal, Input.uv2, ProvinceSecondaryColorMap, vBloomAlpha );
@@ -300,9 +300,9 @@ PixelShader =
             lightingProperties._Normal = normal;
             
             lightingProperties._Diffuse = diffuse.rgb;
-            lightingProperties._Glossiness = vGlossiness;
+            lightingProperties._Glossiness = 0.0f;
             lightingProperties._SpecularColor = vec3(0.0);
-            lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(vGlossiness);
+            lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(0.0f);
 
 
             float3 diffuseLight = vec3(0.0);
@@ -327,8 +327,6 @@ PixelShader =
             
             DebugReturn(vOut, lightingProperties, fShadowTerm);
 
-            vOut = lerp( dot(vOut, float3(0.299,0.587,0.114)), vOut, 1.15 );
-            vOut = vOut * 1.06;
             return float4( vOut, vNightFactor * CITY_LIGHTS_BLOOM_FACTOR );
         }       
     ]]
@@ -350,7 +348,7 @@ PixelShader =
 
             float vWaterAlpha = saturate(( Input.prepos.y - vMin ) / ( vMax - vMin ) );
         
-            float vGlossiness = 0.0f;
+            float vGlossiness = MAP_SPECULAR_WIDTH;
         
             LightingProperties lightingProperties;
             lightingProperties._WorldSpacePos = Input.prepos;
@@ -358,9 +356,9 @@ PixelShader =
             lightingProperties._Normal = normal;
             lightingProperties._Diffuse = diffuse;
 
-            lightingProperties._Glossiness = vGlossiness;
+            lightingProperties._Glossiness = 0.0f;
             lightingProperties._SpecularColor = vec3(0.0);
-            lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(vGlossiness);
+            lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(0.0f);
             
             float3 diffuseLight = vec3(0.0);
             float3 specularLight = vec3(0.0);       
@@ -368,6 +366,7 @@ PixelShader =
         
             CalculateSunLight( lightingProperties, fShadowTerm, diffuseLight, specularLight );
             CalculatePointLights( lightingProperties, LightDataMap, LightIndexMap, diffuseLight, specularLight);
+            specularLight = vec3(0.0);
             
             float3 vOut = ComposeLight(lightingProperties, diffuseLight, specularLight );
                         
@@ -404,14 +403,12 @@ Effect terrain_low_gfx
 {
     VertexShader = "VertexShader"
     PixelShader = "PixelShaderTerrain"
-    Defines = { "PDX_IMPROVED_BLINN_PHONG" }
 }
 
 Effect terrain
 {
     VertexShader = "VertexShader"
     PixelShader = "PixelShaderTerrain"
-    Defines = { "PDX_IMPROVED_BLINN_PHONG" }
 }
 
 Effect underwater

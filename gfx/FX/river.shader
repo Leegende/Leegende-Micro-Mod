@@ -323,7 +323,8 @@ PixelShader =
 			
 			float3 vEyeDir = normalize( Input.vPrePos_Fade.xyz - vCamPos.xyz );
 			float3 reflection = reflect( vEyeDir, normal );
-			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb * 1.3;
+			float3 cubeSample = texCUBE( ReflectionCubeMap, reflection ).rgb * 1.3;
+			float3 reflectiveColor = ( dot( cubeSample, cubeSample ) < 0.0005f ) ? waterColor : cubeSample;
 
 			float fresnelBias = 0.5f;
 			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.5f;
