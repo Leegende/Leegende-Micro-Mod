@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_division_template_mapicon_bar"
+		textureFile = "gfx/interface/counters/division_template_mapicon_bar.dds"
+		noOfFrames = 71
+	}
+}

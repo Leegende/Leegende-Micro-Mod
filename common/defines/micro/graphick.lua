@@ -1,0 +1,233 @@
+NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.75
+NDefines_Graphics.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.8
+NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
+NDefines_Graphics.NMapMode.SELECTED_COUNTRY_HIGHLIGHT_THICKNESS_MULT = 1.6
+NDefines_Graphics.NGraphics.BORDER_WIDTH = 1.35
+
+NDefines_Graphics.NGraphics.PROVINCE_BORDER_FADE_NEAR = 260
+NDefines_Graphics.NGraphics.PROVINCE_BORDER_FADE_FAR = 420
+NDefines_Graphics.NGraphics.STATE_BORDER_FADE_NEAR = 460
+NDefines_Graphics.NGraphics.STATE_BORDER_FADE_FAR = 680
+NDefines_Graphics.NGraphics.DRAW_COUNTRY_NAMES_CUTOFF = 320
+NDefines_Graphics.NGraphics.PROVINCE_NAME_DRAW_DISTANCE = 750.0
+
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 1
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_LOW = 300.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 9000.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_REFRESH_FREQ = 0.02
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_OPTIMIZATION_RANGE = 80.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 5.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 25.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 2.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_STATE = 1.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_OUTLINE_CUTOFF_COUNTRY = 0.973
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_OUTLINE_CUTOFF_STATE = 0.973
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_TERRAIN = -1
+NDefines_Graphics.NGraphics.RIVER_FADE_FROM = 20.0
+NDefines_Graphics.NGraphics.RIVER_FADE_TO = 3.0
+NDefines_Graphics.NGraphics.MAP_BUILDINGS_DAMAGED_THRESHOLD = 0.80
+
+NDefines_Graphics.NMapMode.SUPPLY_MAP_MODE_COUNTRY_BORDER_CAMERA_DISTANCE = 1.0
+NDefines_Graphics.NMapMode.SUPPLY_MAP_MODE_COUNTRY_BORDER_OUTLINE_CUTOFF = 0.973
+NDefines_Graphics.NMapMode.GRADIENT_BORDERS_THICKNESS_SUPPLY_COUNTRY_BORDER = 10.0
+
+NDefines_Graphics.NGraphics.SUPPLYFLOW_SMOOTHEN_PASSES = 3
+NDefines_Graphics.NGraphics.SUPPLYFLOW_SMOOTHNESS = 0.50
+NDefines_Graphics.NGraphics.FRONTLINE_SPLINE_FACTOR = 0.55
+NDefines_Graphics.NGraphics.SNAPPED_OFF_FRONT_SMOOTHEN_PASSES = 3
+NDefines_Graphics.NGraphics.SNAPPED_OFF_FRONT_SMOOTHNESS = 0.60
+NDefines_Graphics.NGraphics.ROOT_FRONT_SMOOTHEN_PASSES = 2
+NDefines_Graphics.NGraphics.ROOT_FRONT_SMOOTHNESS = 0.60
+NDefines_Graphics.NGraphics.ORDER_FRONT_SMOOTHEN_PASSES = 3
+NDefines_Graphics.NGraphics.ORDER_FRONT_SMOOTHNESS = 0.60
+NDefines_Graphics.NGraphics.ORDER_MOVE_SMOOTHEN_PASSES = 3
+NDefines_Graphics.NGraphics.ORDER_MOVE_SMOOTHNESS = 0.99
+NDefines_Graphics.NGraphics.TRADEROUTE_SMOOTHEN_PASSES = 3
+NDefines_Graphics.NGraphics.TRADEROUTE_SMOOTHNESS = 0.75
+NDefines_Graphics.NGraphics.ARROW_MIN_TEXT_POINTS_LIMIT = 8
+NDefines_Graphics.NGraphics.ARROW_EXT_TEXT_POINTS_LIMIT = 16
+NDefines_Graphics.NGraphics.ARROW_MOVEMENT_SPEED = 2.0
+
+NDefines_Graphics.NGraphics.RAID_ARROW_NAVAL_SUBDIVISIONS = 32
+NDefines_Graphics.NGraphics.RAID_ARROW_LAND_SUBDIVISIONS = 32
+NDefines_Graphics.NGraphics.RAID_ARROW_NAVAL_SHARP_TURN_SMOOTHNESS = 0.15
+NDefines_Graphics.NGraphics.RAID_ARROW_LAND_SHARP_TURN_SMOOTHNESS = 0.15
+NDefines_Graphics.NGraphics.RAID_ARROW_BALLISTIC_MAX_SEGMENTS = 120
+NDefines_Graphics.NGraphics.RAID_ARROW_AIR_MAX_SEGMENTS = 120
+
+NDefines_Graphics.NGraphics.ORDERS_MOUSE_INTERSECT_DISTANCE_MULT = 3.0
+NDefines_Graphics.NGraphics.FRONTS_MOUSE_INTERSECT_DISTANCE_MULT = 7.0
+NDefines_Graphics.NGraphics.MOVE_ORDERS_MOUSE_INTERSECT_DISTANCE_MULT = 0.6
+NDefines_Graphics.NGraphics.TRADE_ROUTE_INTERSECT_DISTANCE_MULT = 12.0
+NDefines_Graphics.NGraphics.RAILWAY_INTERSECT_DISTANCE_MULT = 4.0
+
+NDefines_Graphics.NGraphics.MAX_NUMBER_OF_TEXTURES = 30000
+NDefines_Graphics.NGraphics.MAX_MESHES_LOADED_PER_FRAME = 45
+
+NDefines_Graphics.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 1800.0
+NDefines_Graphics.NGraphics.DRAW_REFRACTIONS_CUTOFF = 450.0
+NDefines_Graphics.NGraphics.MAP_BUILDINGS_SHRINK_DISTANCE = 360
+NDefines_Graphics.NGraphics.CITY_SPRAWL_SHRINK_DISTANCE = 320.0
+NDefines_Graphics.NGraphics.WEATHER_ZOOM_IN_CUTOFF = 650
+NDefines_Graphics.NGraphics.WEATHER_ZOOM_IN_FADE_LENGTH = 250
+NDefines_Graphics.NGraphics.WEATHER_DISTANCE_FADE_LENGTH = 350
+NDefines_Graphics.NGraphics.WEATHER_PLAYBACK_RATE = 0.25
+NDefines_Graphics.NGraphics.TREE_FADE_NEAR = 280.0
+NDefines_Graphics.NGraphics.TREE_FADE_FAR = 420.0
+
+NDefines_Graphics.NGraphics.DRAW_SHADOWS_CUTOFF = 650
+NDefines_Graphics.NGraphics.DRAW_SHADOWS_FADE_LENGTH = 140
+NDefines_Graphics.NGraphics.DRAW_FOW_CUTOFF = 700
+NDefines_Graphics.NGraphics.DRAW_FOW_FADE_LENGTH = 250
+NDefines_Graphics.NGraphics.LIGHT_HDR_RANGE = 1.0
+NDefines_Graphics.NGraphics.CUBEMAP_INTENSITY = 1.0
+NDefines_Graphics.NGraphics.BLOOM_WIDTH = 0
+NDefines_Graphics.NGraphics.BLOOM_SCALE = 0
+NDefines_Graphics.NGraphics.BRIGHT_THRESHOLD = 0
+NDefines_Graphics.NGraphics.EMISSIVE_BLOOM_STRENGTH = 0
+NDefines_Graphics.NGraphics.DAY_NIGHT_FEATHER = 0.035
+
+NDefines_Graphics.NGraphics.DECISION_MAP_ICON_DISTANCE_CUTOFF = 800
+NDefines_Graphics.NGraphics.NAVAL_COMBAT_DISTANCE_CUTOFF = 1500
+NDefines_Graphics.NGraphics.LAND_COMBAT_DISTANCE_CUTOFF = 1200
+NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 400
+NDefines_Graphics.NGraphics.AIRBASE_ICON_DISTANCE_CUTOFF = 950
+NDefines_Graphics.NGraphics.NAVALBASE_ICON_DISTANCE_CUTOFF = 1100
+NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 600
+NDefines_Graphics.NGraphics.RESOURCE_MAP_ICON_TEXT_CUTOFF = 850
+NDefines_Graphics.NGraphics.UNITS_DISTANCE_CUTOFF = 550
+NDefines_Graphics.NGraphics.SHIPS_DISTANCE_CUTOFF = 550
+NDefines_Graphics.NGraphics.UNIT_ARROW_DISTANCE_CUTOFF = 950
+NDefines_Graphics.NGraphics.UNITS_ICONS_DISTANCE_CUTOFF = 1100
+NDefines_Graphics.NGraphics.ADJACENCY_RULE_DISTANCE_CUTOFF = 1500
+NDefines_Graphics.NGraphics.SUPPLY_ICON_CUTOFF = 1600
+NDefines_Graphics.NGraphics.CAPITAL_ICON_CUTOFF = 1300
+NDefines_Graphics.NGraphics.FACILITY_DISTANCE_CUTOFF = 1000
+NDefines_Graphics.NGraphics.PROV_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 450
+NDefines_Graphics.NGraphics.STATE_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 750
+NDefines_Graphics.NGraphics.RESISTANCE_MAP_ICON_DISTANCE_CUTOFF = 1400
+NDefines_Graphics.NGraphics.NAVAL_MISSION_ICONS_DISTANCE_CUTOFF = 1600
+NDefines_Graphics.NGraphics.NAVAL_MINES_DISTANCE_CUTOFF = 950
+NDefines_Graphics.NGraphics.CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF = 1200
+NDefines_Graphics.NGraphics.PEACE_CONFERENCE_MAP_ICON_DISTANCE_CUTOFF = 700
+
+NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {260, 480, 750}
+NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_CAPITAL_CUTOFF_MAX = 1300.0
+NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF_MAX = 1000.0
+NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_DOT_CUTOFF_MAX = 1200.0
+
+NDefines_Graphics.NAirGfx.AIRPLANES_ANIMATION_GLOBAL_SPEED_PER_GAMESPEED = {0.3, 0.3, 0.3, 0.3, 0.3, 0.3}
+NDefines_Graphics.NAirGfx.AIRPLANES_CURVE_POINT_DENSITY = 1.2
+NDefines_Graphics.NAirGfx.AIRPLANES_SMOOTH_INTERPOLATION_MOVE = 0.10
+NDefines_Graphics.NAirGfx.AIRPLANES_SMOOTH_INTERPOLATION_TURN = 0.10
+NDefines_Graphics.NAirGfx.AIRPLANES_BANK_STRENGTH = 220.0
+NDefines_Graphics.NAirGfx.AIRPLANES_BANK_ANGLE_LIMIT = 55.0
+
+NDefines_Graphics.NMapIcons.INTERPOLATION_SNAP_DISTANCE = 0.25
+NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100
+NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 5
+NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_CAM_DISTANCE = 100
+NDefines_Graphics.NGraphics.MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 500
+NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 1000
+NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_AREA_HUGE = 250
+NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 300
+NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE_STRATEGIC = 0
+
+NDefines_Graphics.NInterface.GRIDBOX_ELEMENTS_INTERPOLATION_SPEED = 0.35
+NDefines_Graphics.NInterface.MIN_FOCUS_TREE_ZOOM = 0.15
+NDefines_Graphics.NInterface.MAX_FOCUS_TREE_ZOOM = 1.15
+NDefines_Graphics.NInterface.FOCUS_TREE_ZOOM_SPEED = 0.2
+NDefines_Graphics.NInterface.FOCUS_TREE_ZOOM_FACTOR = 0.4
+NDefines_Graphics.NInterface.DRAG_AND_DROP_SCROLLING_SENSITIVITY = 14.0
+
+NDefines_Graphics.NMapMode.RADAR_ROTATION_SPEED = 0.0
+NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_ROTATION_SPEED = 0.0000
+NDefines_Graphics.NGraphics.DIRECTION_POINTER_INTERPOLATION_SPEED = 0.28
+NDefines_Graphics.NGraphics.CAMERA_INTERPOLATION_SPEED = 0.20
+NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED_DISTANCE_MULT = 20
+NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED = 50
+NDefines_Graphics.NGraphics.CAMERA_ZOOM_KEY_SCALE = 0.02
+
+NDefines_Graphics.NGraphics.MIN_TRAIN_WAGON_COUNT = 1
+NDefines_Graphics.NGraphics.MAX_TRAIN_WAGON_COUNT = 1
+NDefines_Graphics.NGraphics.TUNNELBANA_TIMETABLE = { 999999999, 999999999 }
+NDefines_Graphics.NGraphics.TRAIN_MAP_SPEED = 0.0
+
+NDefines_Graphics.NMapMode.SUPPLY_MAP_MODE_REACH_COLOR = {
+    0.0,   0.45, 0.00, 0.20, 1.0,
+    0.02,  0.35, 0.12, 0.45, 1.0,
+    0.12,  0.20, 0.15, 0.45, 1.0,
+    0.2,   0.27, 0.27, 0.50, 1.0,
+    0.4,   0.15, 0.25, 0.40, 1.0,
+    0.6,   0.20, 0.42, 0.60, 1.0,
+    0.8,   0.35, 0.50, 0.30, 1.0,
+    1.0,   0.15, 0.54, 0.15, 1.0,
+}
+
+NDefines_Graphics.NGraphics.COMMANDGROUP_PRESET_COLORS_HSV = {
+    0.0 / 360.0, 0.00, 0.00,
+    0.0 / 360.0, 0.00, 1.00,
+    0.0 / 360.0, 0.98, 0.96,
+    25.0 / 360.0, 0.98, 0.98,
+    54.0 / 360.0, 0.98, 0.98,
+    125.0 / 360.0, 0.92, 0.86,
+    180.0 / 360.0, 0.95, 0.92,
+    228.0 / 360.0, 0.92, 0.95,
+    275.0 / 360.0, 0.92, 0.95,
+    320.0 / 360.0, 0.95, 0.95,
+
+    0.0 / 360.0, 0.00, 0.18,
+    0.0 / 360.0, 0.00, 0.95,
+    0.0 / 360.0, 0.45, 0.98,
+    25.0 / 360.0, 0.45, 0.99,
+    54.0 / 360.0, 0.42, 0.99,
+    125.0 / 360.0, 0.42, 0.96,
+    180.0 / 360.0, 0.42, 0.98,
+    212.0 / 360.0, 0.45, 0.99,
+    275.0 / 360.0, 0.45, 0.98,
+    325.0 / 360.0, 0.45, 0.98,
+
+    0.0 / 360.0, 0.00, 0.32,
+    0.0 / 360.0, 0.00, 0.85,
+    0.0 / 360.0, 0.78, 0.85,
+    25.0 / 360.0, 0.78, 0.90,
+    52.0 / 360.0, 0.78, 0.92,
+    125.0 / 360.0, 0.75, 0.78,
+    180.0 / 360.0, 0.75, 0.82,
+    225.0 / 360.0, 0.75, 0.85,
+    275.0 / 360.0, 0.75, 0.85,
+    320.0 / 360.0, 0.75, 0.88,
+
+    215.0 / 360.0, 0.12, 0.45,
+    0.0 / 360.0, 0.00, 0.75,
+    350.0 / 360.0, 0.92, 0.88,
+    30.0 / 360.0, 0.95, 0.92,
+    48.0 / 360.0, 0.92, 0.92,
+    135.0 / 360.0, 0.90, 0.80,
+    185.0 / 360.0, 0.92, 0.88,
+    235.0 / 360.0, 0.88, 0.90,
+    280.0 / 360.0, 0.90, 0.90,
+    335.0 / 360.0, 0.90, 0.90,
+
+    215.0 / 360.0, 0.18, 0.35,
+    0.0 / 360.0, 0.00, 0.60,
+    0.0 / 360.0, 0.88, 0.65,
+    22.0 / 360.0, 0.90, 0.70,
+    45.0 / 360.0, 0.90, 0.70,
+    130.0 / 360.0, 0.88, 0.60,
+    180.0 / 360.0, 0.88, 0.62,
+    228.0 / 360.0, 0.88, 0.68,
+    275.0 / 360.0, 0.88, 0.68,
+    320.0 / 360.0, 0.88, 0.68,
+
+    0.0 / 360.0, 0.00, 0.05,
+    0.0 / 360.0, 0.00, 0.25,
+    0.0 / 360.0, 0.92, 0.42,
+    20.0 / 360.0, 0.92, 0.45,
+    50.0 / 360.0, 0.92, 0.45,
+    130.0 / 360.0, 0.92, 0.38,
+    180.0 / 360.0, 0.92, 0.40,
+    230.0 / 360.0, 0.92, 0.45,
+    275.0 / 360.0, 0.92, 0.45,
+    320.0 / 360.0, 0.92, 0.45
+}
